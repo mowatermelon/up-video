@@ -1,5 +1,5 @@
 ﻿/*
-!*修改日期：2017/07/10
+!*修改日期：2018/05/18
 !*修改人：WU EVA 
 !*修改原因：结合实际项目重写了页面样式
 **/
@@ -14,7 +14,7 @@
 .fullYearPicker .month-container{
 	min-width: 400px;
 	float: left;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 .fullYearPicker .date_clear{
 	clear: both;
