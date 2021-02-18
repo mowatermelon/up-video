@@ -1,0 +1,22 @@
+{
+  "name": "bili-up",
+  "version": "1.0.0",
+  "description": "统计up 的发布视频信息",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mowatermelon/all-year-calendar.git"
+  },
+  "keywords": [
+    "bilibili-api"
+  ],
+  "author": "mowatermelon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mowatermelon/all-year-calendar/issues"
+  },
+  "homepage": "https://github.com/mowatermelon/all-year-calendar#readme"
+}
