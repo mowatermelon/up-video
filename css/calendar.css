@@ -1,8 +1,9 @@
-﻿/*
-!*修改日期：2018/05/18
-!*修改人：WU EVA 
-!*修改原因：结合实际项目重写了页面样式
+﻿/**
+* 复写样式
 **/
+.mdui-typo-display-2.mdui-icon::before {
+	font-size: 45px;
+}
 
 .fullYearPicker{
 	margin-top: 10px;
@@ -31,7 +32,7 @@
 }
 
 .fullYearPicker div.year a {
-	color: #39b3d7;
+	color: #B2DFDB;
 }
 
 
@@ -63,7 +64,7 @@
 	color: #ddd;
 }
 .fullYearPicker .year table .left_first_year,.fullYearPicker .year table .right_first_year{
-	color: #39b3d7;
+	color: #B2DFDB;
 }
 
 @media only screen and (max-width: 640px){
@@ -79,7 +80,7 @@
 }
 
 .fullYearPicker .picker table {
-	border: 1px solid #46b8da;
+	border: 1px solid #4DB6AC;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -93,7 +94,7 @@
 	text-align: center;
 	line-height: 20px;
 	cursor:pointer;
-	background: #46b8da;
+	background: #4DB6AC;
 	color: #fff;
 }
 
@@ -104,11 +105,11 @@
 	cursor: pointer;
 	padding: 5px;
 	margin: 1px;
-	border: 1px double #5bc0de;
+	border: 1px double #80CBC4;
 }
 
 .fullYearPicker .picker table .able_day:hover{
-	background: #5bc0de;
+	background: #80CBC4;
 	color: #fff;
 	border-radius: 2px;
 }
@@ -120,13 +121,20 @@
 }
 
 .fullYearPicker table td.weekend,.fullYearPicker table th.weekend {
-	color: #428bca;
- border: 1px dotted #46b8da;
+	color: #4DB6AC;
+ border: 1px dotted #4DB6AC;
 }
 
 .fullYearPicker table td.disabled {
 
 
+}
+
+.mdui-textfield-search{
+	transform: scale(1);
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 /*ѡ����ʽ */
@@ -140,7 +148,7 @@
 }
 /*.fullYearPicker table td.able_day */
 .fullYearPicker table td.workday{
-	background:#39b3d7;
+	background:#B2DFDB;
 }
 /*�ǹ����յ���ʽ */
 /*.fullYearPicker table td.weekend */
@@ -199,7 +207,7 @@
 }
 
 .hd_info_modal .am-modal-hd{
-	border-bottom: 2px solid #31aaef;
+	border-bottom: 2px solid #B2DFDB;
 }
 
 body .hd_info_modal .radius{
