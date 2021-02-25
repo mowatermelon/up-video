@@ -1,0 +1,197 @@
+2021-02-25 15:44:48,022 ERROR 60062 [-/127.0.0.1/-/5ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-core/lib/utils/base_context_class.js:25:20)
+    at new BaseContextClass (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new HomeService (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:7:5)
+    at getInstance (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at HomeController.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:13:24)
+    at Object.callFn (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+
+pid: 60062
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:45:45,455 ERROR 60260 [-/127.0.0.1/-/166ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'data' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:43:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60260
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:46:36,889 ERROR 60333 [-/127.0.0.1/-/152ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'result' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:43:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60333
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:47:20,972 ERROR 60406 [-/127.0.0.1/-/272ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'result' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:44:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60406
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:47:26,423 ERROR 60406 [-/127.0.0.1/-/123ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'result' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:44:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60406
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:47:27,652 ERROR 60406 [-/127.0.0.1/-/117ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'result' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:44:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60406
+hostname: WudeMacBook-Pro
+
+2021-02-25 15:54:31,257 ERROR 60769 [-/127.0.0.1/-/177ms GET /up/%E8%80%81%E7%95%AA%E8%8C%84] nodejs.TypeError: Cannot read property 'result' of undefined
+    at HomeService.findName (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:43:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 60769
+hostname: WudeMacBook-Pro
+
+2021-02-25 16:19:04,037 ERROR 61790 [-/127.0.0.1/-/5ms GET /] nodejs.ReferenceError: /Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs:59
+    57| 		<div id="dateRender" class="mdui-container-fluid"></div>
+    58| 		<form>
+ >> 59| 			<input type="hidden" id="queryData" value="<%= findData %>"/>
+    60| 		</form>
+    61| 
+    62| 		<!--视频数据查看-->
+
+findData is not defined
+    57| 		<div id="dateRender" class="mdui-container-fluid"></div>
+    58| 		<form>
+ >> 59| 			<input type="hidden" id="queryData" value="<%= findData %>"/>
+    60| 		</form>
+    61| 
+    62| 		<!--视频数据查看-->
+
+findData is not defined
+    at eval (/Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs:12:26)
+    at index (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:8:5)
+path: "/Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs"
+pid: 61790
+hostname: WudeMacBook-Pro
+
+2021-02-25 16:19:17,121 ERROR 61790 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: /Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs:59
+    57| 		<div id="dateRender" class="mdui-container-fluid"></div>
+    58| 		<!-- <form>
+ >> 59| 			<input type="hidden" id="queryData" value="<%= findData %>"/>
+    60| 		</form> -->
+    61| 
+    62| 		<!--视频数据查看-->
+
+findData is not defined
+    57| 		<div id="dateRender" class="mdui-container-fluid"></div>
+    58| 		<!-- <form>
+ >> 59| 			<input type="hidden" id="queryData" value="<%= findData %>"/>
+    60| 		</form> -->
+    61| 
+    62| 		<!--视频数据查看-->
+
+findData is not defined
+    at eval (/Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs:12:26)
+    at index (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/ejs/lib/ejs.js:485:10)
+    at /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:8:5)
+path: "/Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.ejs"
+pid: 61790
+hostname: WudeMacBook-Pro
+
+2021-02-25 16:41:58,250 ERROR 63834 [-/127.0.0.1/-/36ms GET /video/99157282] nodejs.TypeError: Cannot read property 'list' of null
+    at HomeService.findVideo (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:78:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 63834
+hostname: WudeMacBook-Pro
+
+2021-02-25 16:41:58,315 ERROR 63834 [-/127.0.0.1/-/37ms GET /video/99157282] nodejs.TypeError: Cannot read property 'list' of null
+    at HomeService.findVideo (/Volumes/文件盘/documentBak/idea/me/egg-example/app/service/home.js:78:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 63834
+hostname: WudeMacBook-Pro
+

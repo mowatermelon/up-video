@@ -1,0 +1,941 @@
+2021-02-22 00:00:01,787 INFO 8800 [egg-logrotator] app logger reload: got log-reload message
+2021-02-22 04:30:01,053 INFO 8800 [-/127.0.0.1/-/25ms SCHEDULE /__schedule?path=/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/vs/0dx4gdv17jx6fzfp0bjwx9r80000gn/T/egg-multipart-tmp/example"
+2021-02-22 04:30:01,064 INFO 8800 [-/127.0.0.1/-/42ms SCHEDULE /__schedule?path=/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-02-25 11:19:50,034 INFO 48468 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 11:19:50,056 INFO 48468 [egg-multipart] stream mode enable
+2021-02-25 11:19:50,161 INFO 48468 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 11:19:50,163 INFO 48468 [egg-security] use csrf middleware
+2021-02-25 11:19:50,164 INFO 48468 [egg-security] use methodnoallow middleware
+2021-02-25 11:19:50,165 INFO 48468 [egg-security] use noopen middleware
+2021-02-25 11:19:50,166 INFO 48468 [egg-security] use nosniff middleware
+2021-02-25 11:19:50,166 INFO 48468 [egg-security] use xssProtection middleware
+2021-02-25 11:19:50,167 INFO 48468 [egg-security] use xframe middleware
+2021-02-25 11:19:50,167 INFO 48468 [egg-security] use dta middleware
+2021-02-25 11:19:50,167 INFO 48468 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 11:19:50,174 INFO 48468 [egg:core] dump config after load, 3ms
+2021-02-25 11:19:50,184 INFO 48468 [egg-watcher:application] watcher start success
+2021-02-25 11:19:50,191 INFO 48468 [egg:core] dump config after ready, 5ms
+2021-02-25 14:00:30,064 INFO 54380 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:00:30,088 INFO 54380 [egg-multipart] stream mode enable
+2021-02-25 14:00:30,173 INFO 54380 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:00:30,175 INFO 54380 [egg-security] use csrf middleware
+2021-02-25 14:00:30,176 INFO 54380 [egg-security] use methodnoallow middleware
+2021-02-25 14:00:30,176 INFO 54380 [egg-security] use noopen middleware
+2021-02-25 14:00:30,177 INFO 54380 [egg-security] use nosniff middleware
+2021-02-25 14:00:30,177 INFO 54380 [egg-security] use xssProtection middleware
+2021-02-25 14:00:30,178 INFO 54380 [egg-security] use xframe middleware
+2021-02-25 14:00:30,178 INFO 54380 [egg-security] use dta middleware
+2021-02-25 14:00:30,178 INFO 54380 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:00:30,187 INFO 54380 [egg:core] dump config after load, 6ms
+2021-02-25 14:00:30,194 INFO 54380 [egg-watcher:application] watcher start success
+2021-02-25 14:00:30,202 INFO 54380 [egg:core] dump config after ready, 6ms
+2021-02-25 14:22:55,501 INFO 55221 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:22:55,532 INFO 55221 [egg-multipart] stream mode enable
+2021-02-25 14:22:55,622 INFO 55221 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:22:55,624 INFO 55221 [egg-security] use csrf middleware
+2021-02-25 14:22:55,624 INFO 55221 [egg-security] use methodnoallow middleware
+2021-02-25 14:22:55,625 INFO 55221 [egg-security] use noopen middleware
+2021-02-25 14:22:55,626 INFO 55221 [egg-security] use nosniff middleware
+2021-02-25 14:22:55,626 INFO 55221 [egg-security] use xssProtection middleware
+2021-02-25 14:22:55,627 INFO 55221 [egg-security] use xframe middleware
+2021-02-25 14:22:55,627 INFO 55221 [egg-security] use dta middleware
+2021-02-25 14:22:55,627 INFO 55221 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:22:55,634 INFO 55221 [egg:core] dump config after load, 4ms
+2021-02-25 14:22:55,641 INFO 55221 [egg-watcher:application] watcher start success
+2021-02-25 14:22:55,648 INFO 55221 [egg:core] dump config after ready, 5ms
+2021-02-25 14:23:36,492 INFO 55264 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:23:36,514 INFO 55264 [egg-multipart] stream mode enable
+2021-02-25 14:23:36,574 INFO 55264 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:23:36,575 INFO 55264 [egg-security] use csrf middleware
+2021-02-25 14:23:36,576 INFO 55264 [egg-security] use methodnoallow middleware
+2021-02-25 14:23:36,576 INFO 55264 [egg-security] use noopen middleware
+2021-02-25 14:23:36,577 INFO 55264 [egg-security] use nosniff middleware
+2021-02-25 14:23:36,577 INFO 55264 [egg-security] use xssProtection middleware
+2021-02-25 14:23:36,577 INFO 55264 [egg-security] use xframe middleware
+2021-02-25 14:23:36,578 INFO 55264 [egg-security] use dta middleware
+2021-02-25 14:23:36,578 INFO 55264 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:23:36,585 INFO 55264 [egg:core] dump config after load, 4ms
+2021-02-25 14:23:36,592 INFO 55264 [egg-watcher:application] watcher start success
+2021-02-25 14:23:36,598 INFO 55264 [egg:core] dump config after ready, 4ms
+2021-02-25 14:36:18,143 INFO 55802 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:36:18,171 INFO 55802 [egg-multipart] stream mode enable
+2021-02-25 14:36:18,268 INFO 55802 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:36:18,271 INFO 55802 [egg-security] use csrf middleware
+2021-02-25 14:36:18,271 INFO 55802 [egg-security] use methodnoallow middleware
+2021-02-25 14:36:18,272 INFO 55802 [egg-security] use noopen middleware
+2021-02-25 14:36:18,273 INFO 55802 [egg-security] use nosniff middleware
+2021-02-25 14:36:18,273 INFO 55802 [egg-security] use xssProtection middleware
+2021-02-25 14:36:18,274 INFO 55802 [egg-security] use xframe middleware
+2021-02-25 14:36:18,274 INFO 55802 [egg-security] use dta middleware
+2021-02-25 14:36:18,274 INFO 55802 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:36:18,284 INFO 55802 [egg:core] dump config after load, 7ms
+2021-02-25 14:36:18,293 INFO 55802 [egg-watcher:application] watcher start success
+2021-02-25 14:36:18,300 INFO 55802 [egg:core] dump config after ready, 5ms
+2021-02-25 14:36:45,457 INFO 55857 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:36:45,482 INFO 55857 [egg-multipart] stream mode enable
+2021-02-25 14:36:45,576 INFO 55857 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:36:45,578 INFO 55857 [egg-security] use csrf middleware
+2021-02-25 14:36:45,579 INFO 55857 [egg-security] use methodnoallow middleware
+2021-02-25 14:36:45,579 INFO 55857 [egg-security] use noopen middleware
+2021-02-25 14:36:45,580 INFO 55857 [egg-security] use nosniff middleware
+2021-02-25 14:36:45,580 INFO 55857 [egg-security] use xssProtection middleware
+2021-02-25 14:36:45,581 INFO 55857 [egg-security] use xframe middleware
+2021-02-25 14:36:45,581 INFO 55857 [egg-security] use dta middleware
+2021-02-25 14:36:45,581 INFO 55857 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:36:45,587 INFO 55857 [egg:core] dump config after load, 2ms
+2021-02-25 14:36:45,594 INFO 55857 [egg-watcher:application] watcher start success
+2021-02-25 14:36:45,601 INFO 55857 [egg:core] dump config after ready, 5ms
+2021-02-25 14:36:57,486 INFO 55877 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:36:57,513 INFO 55877 [egg-multipart] stream mode enable
+2021-02-25 14:36:57,601 INFO 55877 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:36:57,603 INFO 55877 [egg-security] use csrf middleware
+2021-02-25 14:36:57,603 INFO 55877 [egg-security] use methodnoallow middleware
+2021-02-25 14:36:57,604 INFO 55877 [egg-security] use noopen middleware
+2021-02-25 14:36:57,605 INFO 55877 [egg-security] use nosniff middleware
+2021-02-25 14:36:57,605 INFO 55877 [egg-security] use xssProtection middleware
+2021-02-25 14:36:57,606 INFO 55877 [egg-security] use xframe middleware
+2021-02-25 14:36:57,606 INFO 55877 [egg-security] use dta middleware
+2021-02-25 14:36:57,606 INFO 55877 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:36:57,613 INFO 55877 [egg:core] dump config after load, 3ms
+2021-02-25 14:36:57,621 INFO 55877 [egg-watcher:application] watcher start success
+2021-02-25 14:36:57,628 INFO 55877 [egg:core] dump config after ready, 6ms
+2021-02-25 14:37:06,475 INFO 55891 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 14:37:06,498 INFO 55891 [egg-multipart] stream mode enable
+2021-02-25 14:37:06,558 INFO 55891 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 14:37:06,560 INFO 55891 [egg-security] use csrf middleware
+2021-02-25 14:37:06,560 INFO 55891 [egg-security] use methodnoallow middleware
+2021-02-25 14:37:06,561 INFO 55891 [egg-security] use noopen middleware
+2021-02-25 14:37:06,561 INFO 55891 [egg-security] use nosniff middleware
+2021-02-25 14:37:06,562 INFO 55891 [egg-security] use xssProtection middleware
+2021-02-25 14:37:06,562 INFO 55891 [egg-security] use xframe middleware
+2021-02-25 14:37:06,562 INFO 55891 [egg-security] use dta middleware
+2021-02-25 14:37:06,562 INFO 55891 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 14:37:06,569 INFO 55891 [egg:core] dump config after load, 4ms
+2021-02-25 14:37:06,576 INFO 55891 [egg-watcher:application] watcher start success
+2021-02-25 14:37:06,583 INFO 55891 [egg:core] dump config after ready, 5ms
+2021-02-25 15:32:57,451 INFO 59284 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:32:57,476 INFO 59284 [egg-multipart] stream mode enable
+2021-02-25 15:32:57,571 INFO 59284 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:32:57,573 INFO 59284 [egg-security] use csrf middleware
+2021-02-25 15:32:57,573 INFO 59284 [egg-security] use methodnoallow middleware
+2021-02-25 15:32:57,574 INFO 59284 [egg-security] use noopen middleware
+2021-02-25 15:32:57,575 INFO 59284 [egg-security] use nosniff middleware
+2021-02-25 15:32:57,575 INFO 59284 [egg-security] use xssProtection middleware
+2021-02-25 15:32:57,576 INFO 59284 [egg-security] use xframe middleware
+2021-02-25 15:32:57,577 INFO 59284 [egg-security] use dta middleware
+2021-02-25 15:32:57,577 INFO 59284 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:32:57,586 INFO 59284 [egg:core] dump config after load, 6ms
+2021-02-25 15:32:57,593 INFO 59284 [egg-watcher:application] watcher start success
+2021-02-25 15:32:57,601 INFO 59284 [egg:core] dump config after ready, 6ms
+2021-02-25 15:42:49,465 INFO 59995 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:42:49,487 INFO 59995 [egg-multipart] stream mode enable
+2021-02-25 15:42:49,572 INFO 59995 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:42:49,574 INFO 59995 [egg-security] use csrf middleware
+2021-02-25 15:42:49,575 INFO 59995 [egg-security] use methodnoallow middleware
+2021-02-25 15:42:49,575 INFO 59995 [egg-security] use noopen middleware
+2021-02-25 15:42:49,576 INFO 59995 [egg-security] use nosniff middleware
+2021-02-25 15:42:49,576 INFO 59995 [egg-security] use xssProtection middleware
+2021-02-25 15:42:49,577 INFO 59995 [egg-security] use xframe middleware
+2021-02-25 15:42:49,577 INFO 59995 [egg-security] use dta middleware
+2021-02-25 15:42:49,577 INFO 59995 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:42:49,585 INFO 59995 [egg:core] dump config after load, 5ms
+2021-02-25 15:42:49,592 INFO 59995 [egg-watcher:application] watcher start success
+2021-02-25 15:42:49,598 INFO 59995 [egg:core] dump config after ready, 5ms
+2021-02-25 15:42:57,407 INFO 60020 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:42:57,431 INFO 60020 [egg-multipart] stream mode enable
+2021-02-25 15:42:57,490 INFO 60020 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:42:57,492 INFO 60020 [egg-security] use csrf middleware
+2021-02-25 15:42:57,492 INFO 60020 [egg-security] use methodnoallow middleware
+2021-02-25 15:42:57,493 INFO 60020 [egg-security] use noopen middleware
+2021-02-25 15:42:57,493 INFO 60020 [egg-security] use nosniff middleware
+2021-02-25 15:42:57,493 INFO 60020 [egg-security] use xssProtection middleware
+2021-02-25 15:42:57,494 INFO 60020 [egg-security] use xframe middleware
+2021-02-25 15:42:57,494 INFO 60020 [egg-security] use dta middleware
+2021-02-25 15:42:57,494 INFO 60020 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:42:57,500 INFO 60020 [egg:core] dump config after load, 2ms
+2021-02-25 15:42:57,507 INFO 60020 [egg-watcher:application] watcher start success
+2021-02-25 15:42:57,514 INFO 60020 [egg:core] dump config after ready, 6ms
+2021-02-25 15:43:21,454 INFO 60050 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:43:21,476 INFO 60050 [egg-multipart] stream mode enable
+2021-02-25 15:43:21,532 INFO 60050 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:43:21,534 INFO 60050 [egg-security] use csrf middleware
+2021-02-25 15:43:21,535 INFO 60050 [egg-security] use methodnoallow middleware
+2021-02-25 15:43:21,535 INFO 60050 [egg-security] use noopen middleware
+2021-02-25 15:43:21,535 INFO 60050 [egg-security] use nosniff middleware
+2021-02-25 15:43:21,536 INFO 60050 [egg-security] use xssProtection middleware
+2021-02-25 15:43:21,536 INFO 60050 [egg-security] use xframe middleware
+2021-02-25 15:43:21,536 INFO 60050 [egg-security] use dta middleware
+2021-02-25 15:43:21,536 INFO 60050 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:43:21,544 INFO 60050 [egg:core] dump config after load, 4ms
+2021-02-25 15:43:21,551 INFO 60050 [egg-watcher:application] watcher start success
+2021-02-25 15:43:21,558 INFO 60050 [egg:core] dump config after ready, 5ms
+2021-02-25 15:43:23,590 INFO 60057 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:43:23,613 INFO 60057 [egg-multipart] stream mode enable
+2021-02-25 15:43:23,672 INFO 60057 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:43:23,674 INFO 60057 [egg-security] use csrf middleware
+2021-02-25 15:43:23,674 INFO 60057 [egg-security] use methodnoallow middleware
+2021-02-25 15:43:23,674 INFO 60057 [egg-security] use noopen middleware
+2021-02-25 15:43:23,675 INFO 60057 [egg-security] use nosniff middleware
+2021-02-25 15:43:23,675 INFO 60057 [egg-security] use xssProtection middleware
+2021-02-25 15:43:23,675 INFO 60057 [egg-security] use xframe middleware
+2021-02-25 15:43:23,676 INFO 60057 [egg-security] use dta middleware
+2021-02-25 15:43:23,676 INFO 60057 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:43:23,682 INFO 60057 [egg:core] dump config after load, 3ms
+2021-02-25 15:43:23,690 INFO 60057 [egg-watcher:application] watcher start success
+2021-02-25 15:43:23,696 INFO 60057 [egg:core] dump config after ready, 5ms
+2021-02-25 15:43:25,885 INFO 60062 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:43:25,908 INFO 60062 [egg-multipart] stream mode enable
+2021-02-25 15:43:25,968 INFO 60062 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:43:25,969 INFO 60062 [egg-security] use csrf middleware
+2021-02-25 15:43:25,970 INFO 60062 [egg-security] use methodnoallow middleware
+2021-02-25 15:43:25,970 INFO 60062 [egg-security] use noopen middleware
+2021-02-25 15:43:25,971 INFO 60062 [egg-security] use nosniff middleware
+2021-02-25 15:43:25,971 INFO 60062 [egg-security] use xssProtection middleware
+2021-02-25 15:43:25,971 INFO 60062 [egg-security] use xframe middleware
+2021-02-25 15:43:25,972 INFO 60062 [egg-security] use dta middleware
+2021-02-25 15:43:25,972 INFO 60062 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:43:25,978 INFO 60062 [egg:core] dump config after load, 4ms
+2021-02-25 15:43:25,986 INFO 60062 [egg-watcher:application] watcher start success
+2021-02-25 15:43:25,992 INFO 60062 [egg:core] dump config after ready, 5ms
+2021-02-25 15:45:01,788 INFO 60177 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:45:01,811 INFO 60177 [egg-multipart] stream mode enable
+2021-02-25 15:45:01,909 INFO 60177 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:45:01,911 INFO 60177 [egg-security] use csrf middleware
+2021-02-25 15:45:01,912 INFO 60177 [egg-security] use methodnoallow middleware
+2021-02-25 15:45:01,913 INFO 60177 [egg-security] use noopen middleware
+2021-02-25 15:45:01,913 INFO 60177 [egg-security] use nosniff middleware
+2021-02-25 15:45:01,914 INFO 60177 [egg-security] use xssProtection middleware
+2021-02-25 15:45:01,914 INFO 60177 [egg-security] use xframe middleware
+2021-02-25 15:45:01,915 INFO 60177 [egg-security] use dta middleware
+2021-02-25 15:45:01,915 INFO 60177 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:45:01,923 INFO 60177 [egg:core] dump config after load, 6ms
+2021-02-25 15:45:01,931 INFO 60177 [egg-watcher:application] watcher start success
+2021-02-25 15:45:01,938 INFO 60177 [egg:core] dump config after ready, 5ms
+2021-02-25 15:45:44,079 INFO 60260 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:45:44,104 INFO 60260 [egg-multipart] stream mode enable
+2021-02-25 15:45:44,192 INFO 60260 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:45:44,194 INFO 60260 [egg-security] use csrf middleware
+2021-02-25 15:45:44,195 INFO 60260 [egg-security] use methodnoallow middleware
+2021-02-25 15:45:44,195 INFO 60260 [egg-security] use noopen middleware
+2021-02-25 15:45:44,196 INFO 60260 [egg-security] use nosniff middleware
+2021-02-25 15:45:44,197 INFO 60260 [egg-security] use xssProtection middleware
+2021-02-25 15:45:44,197 INFO 60260 [egg-security] use xframe middleware
+2021-02-25 15:45:44,198 INFO 60260 [egg-security] use dta middleware
+2021-02-25 15:45:44,198 INFO 60260 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:45:44,204 INFO 60260 [egg:core] dump config after load, 4ms
+2021-02-25 15:45:44,214 INFO 60260 [egg-watcher:application] watcher start success
+2021-02-25 15:45:44,221 INFO 60260 [egg:core] dump config after ready, 5ms
+2021-02-25 15:46:35,064 INFO 60333 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:46:35,086 INFO 60333 [egg-multipart] stream mode enable
+2021-02-25 15:46:35,168 INFO 60333 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:46:35,169 INFO 60333 [egg-security] use csrf middleware
+2021-02-25 15:46:35,170 INFO 60333 [egg-security] use methodnoallow middleware
+2021-02-25 15:46:35,171 INFO 60333 [egg-security] use noopen middleware
+2021-02-25 15:46:35,171 INFO 60333 [egg-security] use nosniff middleware
+2021-02-25 15:46:35,172 INFO 60333 [egg-security] use xssProtection middleware
+2021-02-25 15:46:35,172 INFO 60333 [egg-security] use xframe middleware
+2021-02-25 15:46:35,173 INFO 60333 [egg-security] use dta middleware
+2021-02-25 15:46:35,173 INFO 60333 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:46:35,179 INFO 60333 [egg:core] dump config after load, 3ms
+2021-02-25 15:46:35,186 INFO 60333 [egg-watcher:application] watcher start success
+2021-02-25 15:46:35,193 INFO 60333 [egg:core] dump config after ready, 5ms
+2021-02-25 15:47:17,350 INFO 60395 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:47:17,374 INFO 60395 [egg-multipart] stream mode enable
+2021-02-25 15:47:17,459 INFO 60395 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:47:17,461 INFO 60395 [egg-security] use csrf middleware
+2021-02-25 15:47:17,461 INFO 60395 [egg-security] use methodnoallow middleware
+2021-02-25 15:47:17,462 INFO 60395 [egg-security] use noopen middleware
+2021-02-25 15:47:17,462 INFO 60395 [egg-security] use nosniff middleware
+2021-02-25 15:47:17,462 INFO 60395 [egg-security] use xssProtection middleware
+2021-02-25 15:47:17,463 INFO 60395 [egg-security] use xframe middleware
+2021-02-25 15:47:17,463 INFO 60395 [egg-security] use dta middleware
+2021-02-25 15:47:17,463 INFO 60395 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:47:17,470 INFO 60395 [egg:core] dump config after load, 4ms
+2021-02-25 15:47:17,478 INFO 60395 [egg-watcher:application] watcher start success
+2021-02-25 15:47:17,484 INFO 60395 [egg:core] dump config after ready, 4ms
+2021-02-25 15:47:18,826 INFO 60406 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:47:18,851 INFO 60406 [egg-multipart] stream mode enable
+2021-02-25 15:47:18,909 INFO 60406 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:47:18,910 INFO 60406 [egg-security] use csrf middleware
+2021-02-25 15:47:18,911 INFO 60406 [egg-security] use methodnoallow middleware
+2021-02-25 15:47:18,911 INFO 60406 [egg-security] use noopen middleware
+2021-02-25 15:47:18,911 INFO 60406 [egg-security] use nosniff middleware
+2021-02-25 15:47:18,912 INFO 60406 [egg-security] use xssProtection middleware
+2021-02-25 15:47:18,912 INFO 60406 [egg-security] use xframe middleware
+2021-02-25 15:47:18,912 INFO 60406 [egg-security] use dta middleware
+2021-02-25 15:47:18,912 INFO 60406 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:47:18,920 INFO 60406 [egg:core] dump config after load, 4ms
+2021-02-25 15:47:18,927 INFO 60406 [egg-watcher:application] watcher start success
+2021-02-25 15:47:18,934 INFO 60406 [egg:core] dump config after ready, 5ms
+2021-02-25 15:48:10,956 INFO 60473 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:48:10,981 INFO 60473 [egg-multipart] stream mode enable
+2021-02-25 15:48:11,063 INFO 60473 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:48:11,065 INFO 60473 [egg-security] use csrf middleware
+2021-02-25 15:48:11,065 INFO 60473 [egg-security] use methodnoallow middleware
+2021-02-25 15:48:11,066 INFO 60473 [egg-security] use noopen middleware
+2021-02-25 15:48:11,067 INFO 60473 [egg-security] use nosniff middleware
+2021-02-25 15:48:11,067 INFO 60473 [egg-security] use xssProtection middleware
+2021-02-25 15:48:11,068 INFO 60473 [egg-security] use xframe middleware
+2021-02-25 15:48:11,068 INFO 60473 [egg-security] use dta middleware
+2021-02-25 15:48:11,068 INFO 60473 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:48:11,076 INFO 60473 [egg:core] dump config after load, 3ms
+2021-02-25 15:48:11,083 INFO 60473 [egg-watcher:application] watcher start success
+2021-02-25 15:48:11,089 INFO 60473 [egg:core] dump config after ready, 5ms
+2021-02-25 15:48:31,261 INFO 60498 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:48:31,286 INFO 60498 [egg-multipart] stream mode enable
+2021-02-25 15:48:31,374 INFO 60498 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:48:31,376 INFO 60498 [egg-security] use csrf middleware
+2021-02-25 15:48:31,377 INFO 60498 [egg-security] use methodnoallow middleware
+2021-02-25 15:48:31,378 INFO 60498 [egg-security] use noopen middleware
+2021-02-25 15:48:31,378 INFO 60498 [egg-security] use nosniff middleware
+2021-02-25 15:48:31,379 INFO 60498 [egg-security] use xssProtection middleware
+2021-02-25 15:48:31,379 INFO 60498 [egg-security] use xframe middleware
+2021-02-25 15:48:31,380 INFO 60498 [egg-security] use dta middleware
+2021-02-25 15:48:31,380 INFO 60498 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:48:31,386 INFO 60498 [egg:core] dump config after load, 3ms
+2021-02-25 15:48:31,393 INFO 60498 [egg-watcher:application] watcher start success
+2021-02-25 15:48:31,400 INFO 60498 [egg:core] dump config after ready, 5ms
+2021-02-25 15:53:43,772 INFO 60715 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:53:43,795 INFO 60715 [egg-multipart] stream mode enable
+2021-02-25 15:53:43,884 INFO 60715 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:53:43,886 INFO 60715 [egg-security] use csrf middleware
+2021-02-25 15:53:43,887 INFO 60715 [egg-security] use methodnoallow middleware
+2021-02-25 15:53:43,887 INFO 60715 [egg-security] use noopen middleware
+2021-02-25 15:53:43,888 INFO 60715 [egg-security] use nosniff middleware
+2021-02-25 15:53:43,889 INFO 60715 [egg-security] use xssProtection middleware
+2021-02-25 15:53:43,889 INFO 60715 [egg-security] use xframe middleware
+2021-02-25 15:53:43,890 INFO 60715 [egg-security] use dta middleware
+2021-02-25 15:53:43,890 INFO 60715 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:53:43,897 INFO 60715 [egg:core] dump config after load, 4ms
+2021-02-25 15:53:43,909 INFO 60715 [egg-watcher:application] watcher start success
+2021-02-25 15:53:43,916 INFO 60715 [egg:core] dump config after ready, 5ms
+2021-02-25 15:54:12,022 INFO 60769 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:54:12,044 INFO 60769 [egg-multipart] stream mode enable
+2021-02-25 15:54:12,103 INFO 60769 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:54:12,105 INFO 60769 [egg-security] use csrf middleware
+2021-02-25 15:54:12,105 INFO 60769 [egg-security] use methodnoallow middleware
+2021-02-25 15:54:12,106 INFO 60769 [egg-security] use noopen middleware
+2021-02-25 15:54:12,107 INFO 60769 [egg-security] use nosniff middleware
+2021-02-25 15:54:12,107 INFO 60769 [egg-security] use xssProtection middleware
+2021-02-25 15:54:12,107 INFO 60769 [egg-security] use xframe middleware
+2021-02-25 15:54:12,108 INFO 60769 [egg-security] use dta middleware
+2021-02-25 15:54:12,108 INFO 60769 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:54:12,113 INFO 60769 [egg:core] dump config after load, 3ms
+2021-02-25 15:54:12,122 INFO 60769 [egg-watcher:application] watcher start success
+2021-02-25 15:54:12,129 INFO 60769 [egg:core] dump config after ready, 5ms
+2021-02-25 15:55:37,011 INFO 60876 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:55:37,034 INFO 60876 [egg-multipart] stream mode enable
+2021-02-25 15:55:37,086 INFO 60876 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:55:37,088 INFO 60876 [egg-security] use csrf middleware
+2021-02-25 15:55:37,089 INFO 60876 [egg-security] use methodnoallow middleware
+2021-02-25 15:55:37,089 INFO 60876 [egg-security] use noopen middleware
+2021-02-25 15:55:37,089 INFO 60876 [egg-security] use nosniff middleware
+2021-02-25 15:55:37,090 INFO 60876 [egg-security] use xssProtection middleware
+2021-02-25 15:55:37,090 INFO 60876 [egg-security] use xframe middleware
+2021-02-25 15:55:37,090 INFO 60876 [egg-security] use dta middleware
+2021-02-25 15:55:37,090 INFO 60876 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:55:37,096 INFO 60876 [egg:core] dump config after load, 3ms
+2021-02-25 15:55:37,105 INFO 60876 [egg-watcher:application] watcher start success
+2021-02-25 15:55:37,112 INFO 60876 [egg:core] dump config after ready, 6ms
+2021-02-25 15:58:38,101 INFO 61176 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:58:38,125 INFO 61176 [egg-multipart] stream mode enable
+2021-02-25 15:58:38,189 INFO 61176 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:58:38,190 INFO 61176 [egg-security] use csrf middleware
+2021-02-25 15:58:38,191 INFO 61176 [egg-security] use methodnoallow middleware
+2021-02-25 15:58:38,191 INFO 61176 [egg-security] use noopen middleware
+2021-02-25 15:58:38,192 INFO 61176 [egg-security] use nosniff middleware
+2021-02-25 15:58:38,192 INFO 61176 [egg-security] use xssProtection middleware
+2021-02-25 15:58:38,193 INFO 61176 [egg-security] use xframe middleware
+2021-02-25 15:58:38,193 INFO 61176 [egg-security] use dta middleware
+2021-02-25 15:58:38,193 INFO 61176 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:58:38,201 INFO 61176 [egg:core] dump config after load, 3ms
+2021-02-25 15:58:38,209 INFO 61176 [egg-watcher:application] watcher start success
+2021-02-25 15:58:38,214 INFO 61176 [egg:core] dump config after ready, 4ms
+2021-02-25 15:58:58,687 INFO 61220 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:58:58,712 INFO 61220 [egg-multipart] stream mode enable
+2021-02-25 15:58:58,773 INFO 61220 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:58:58,774 INFO 61220 [egg-security] use csrf middleware
+2021-02-25 15:58:58,775 INFO 61220 [egg-security] use methodnoallow middleware
+2021-02-25 15:58:58,776 INFO 61220 [egg-security] use noopen middleware
+2021-02-25 15:58:58,776 INFO 61220 [egg-security] use nosniff middleware
+2021-02-25 15:58:58,777 INFO 61220 [egg-security] use xssProtection middleware
+2021-02-25 15:58:58,778 INFO 61220 [egg-security] use xframe middleware
+2021-02-25 15:58:58,778 INFO 61220 [egg-security] use dta middleware
+2021-02-25 15:58:58,778 INFO 61220 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:58:58,787 INFO 61220 [egg:core] dump config after load, 5ms
+2021-02-25 15:58:58,797 INFO 61220 [egg-watcher:application] watcher start success
+2021-02-25 15:58:58,805 INFO 61220 [egg:core] dump config after ready, 5ms
+2021-02-25 15:59:06,772 INFO 61247 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:59:06,794 INFO 61247 [egg-multipart] stream mode enable
+2021-02-25 15:59:06,851 INFO 61247 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:59:06,852 INFO 61247 [egg-security] use csrf middleware
+2021-02-25 15:59:06,853 INFO 61247 [egg-security] use methodnoallow middleware
+2021-02-25 15:59:06,853 INFO 61247 [egg-security] use noopen middleware
+2021-02-25 15:59:06,854 INFO 61247 [egg-security] use nosniff middleware
+2021-02-25 15:59:06,854 INFO 61247 [egg-security] use xssProtection middleware
+2021-02-25 15:59:06,854 INFO 61247 [egg-security] use xframe middleware
+2021-02-25 15:59:06,855 INFO 61247 [egg-security] use dta middleware
+2021-02-25 15:59:06,855 INFO 61247 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:59:06,862 INFO 61247 [egg:core] dump config after load, 5ms
+2021-02-25 15:59:06,870 INFO 61247 [egg-watcher:application] watcher start success
+2021-02-25 15:59:06,877 INFO 61247 [egg:core] dump config after ready, 5ms
+2021-02-25 15:59:31,678 INFO 61268 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:59:31,701 INFO 61268 [egg-multipart] stream mode enable
+2021-02-25 15:59:31,760 INFO 61268 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:59:31,762 INFO 61268 [egg-security] use csrf middleware
+2021-02-25 15:59:31,762 INFO 61268 [egg-security] use methodnoallow middleware
+2021-02-25 15:59:31,763 INFO 61268 [egg-security] use noopen middleware
+2021-02-25 15:59:31,763 INFO 61268 [egg-security] use nosniff middleware
+2021-02-25 15:59:31,763 INFO 61268 [egg-security] use xssProtection middleware
+2021-02-25 15:59:31,764 INFO 61268 [egg-security] use xframe middleware
+2021-02-25 15:59:31,764 INFO 61268 [egg-security] use dta middleware
+2021-02-25 15:59:31,764 INFO 61268 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:59:31,770 INFO 61268 [egg:core] dump config after load, 3ms
+2021-02-25 15:59:31,779 INFO 61268 [egg-watcher:application] watcher start success
+2021-02-25 15:59:31,785 INFO 61268 [egg:core] dump config after ready, 5ms
+2021-02-25 15:59:53,984 INFO 61306 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:59:54,005 INFO 61306 [egg-multipart] stream mode enable
+2021-02-25 15:59:54,064 INFO 61306 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:59:54,065 INFO 61306 [egg-security] use csrf middleware
+2021-02-25 15:59:54,065 INFO 61306 [egg-security] use methodnoallow middleware
+2021-02-25 15:59:54,066 INFO 61306 [egg-security] use noopen middleware
+2021-02-25 15:59:54,066 INFO 61306 [egg-security] use nosniff middleware
+2021-02-25 15:59:54,066 INFO 61306 [egg-security] use xssProtection middleware
+2021-02-25 15:59:54,067 INFO 61306 [egg-security] use xframe middleware
+2021-02-25 15:59:54,067 INFO 61306 [egg-security] use dta middleware
+2021-02-25 15:59:54,067 INFO 61306 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:59:54,073 INFO 61306 [egg:core] dump config after load, 3ms
+2021-02-25 15:59:54,081 INFO 61306 [egg-watcher:application] watcher start success
+2021-02-25 15:59:54,087 INFO 61306 [egg:core] dump config after ready, 5ms
+2021-02-25 15:59:57,233 INFO 61318 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 15:59:57,256 INFO 61318 [egg-multipart] stream mode enable
+2021-02-25 15:59:57,314 INFO 61318 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 15:59:57,315 INFO 61318 [egg-security] use csrf middleware
+2021-02-25 15:59:57,316 INFO 61318 [egg-security] use methodnoallow middleware
+2021-02-25 15:59:57,316 INFO 61318 [egg-security] use noopen middleware
+2021-02-25 15:59:57,316 INFO 61318 [egg-security] use nosniff middleware
+2021-02-25 15:59:57,317 INFO 61318 [egg-security] use xssProtection middleware
+2021-02-25 15:59:57,317 INFO 61318 [egg-security] use xframe middleware
+2021-02-25 15:59:57,317 INFO 61318 [egg-security] use dta middleware
+2021-02-25 15:59:57,317 INFO 61318 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 15:59:57,323 INFO 61318 [egg:core] dump config after load, 3ms
+2021-02-25 15:59:57,331 INFO 61318 [egg-watcher:application] watcher start success
+2021-02-25 15:59:57,338 INFO 61318 [egg:core] dump config after ready, 6ms
+2021-02-25 16:01:00,764 INFO 61393 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:01:00,786 INFO 61393 [egg-multipart] stream mode enable
+2021-02-25 16:01:00,849 INFO 61393 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:01:00,850 INFO 61393 [egg-security] use csrf middleware
+2021-02-25 16:01:00,851 INFO 61393 [egg-security] use methodnoallow middleware
+2021-02-25 16:01:00,851 INFO 61393 [egg-security] use noopen middleware
+2021-02-25 16:01:00,852 INFO 61393 [egg-security] use nosniff middleware
+2021-02-25 16:01:00,852 INFO 61393 [egg-security] use xssProtection middleware
+2021-02-25 16:01:00,852 INFO 61393 [egg-security] use xframe middleware
+2021-02-25 16:01:00,853 INFO 61393 [egg-security] use dta middleware
+2021-02-25 16:01:00,853 INFO 61393 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:01:00,859 INFO 61393 [egg:core] dump config after load, 4ms
+2021-02-25 16:01:00,867 INFO 61393 [egg-watcher:application] watcher start success
+2021-02-25 16:01:00,873 INFO 61393 [egg:core] dump config after ready, 5ms
+2021-02-25 16:01:27,419 INFO 61437 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:01:27,445 INFO 61437 [egg-multipart] stream mode enable
+2021-02-25 16:01:27,545 INFO 61437 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:01:27,547 INFO 61437 [egg-security] use csrf middleware
+2021-02-25 16:01:27,548 INFO 61437 [egg-security] use methodnoallow middleware
+2021-02-25 16:01:27,548 INFO 61437 [egg-security] use noopen middleware
+2021-02-25 16:01:27,549 INFO 61437 [egg-security] use nosniff middleware
+2021-02-25 16:01:27,550 INFO 61437 [egg-security] use xssProtection middleware
+2021-02-25 16:01:27,550 INFO 61437 [egg-security] use xframe middleware
+2021-02-25 16:01:27,551 INFO 61437 [egg-security] use dta middleware
+2021-02-25 16:01:27,551 INFO 61437 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:01:27,561 INFO 61437 [egg:core] dump config after load, 6ms
+2021-02-25 16:01:27,569 INFO 61437 [egg-watcher:application] watcher start success
+2021-02-25 16:01:27,577 INFO 61437 [egg:core] dump config after ready, 5ms
+2021-02-25 16:02:19,414 INFO 61524 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:02:19,439 INFO 61524 [egg-multipart] stream mode enable
+2021-02-25 16:02:19,524 INFO 61524 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:02:19,525 INFO 61524 [egg-security] use csrf middleware
+2021-02-25 16:02:19,526 INFO 61524 [egg-security] use methodnoallow middleware
+2021-02-25 16:02:19,526 INFO 61524 [egg-security] use noopen middleware
+2021-02-25 16:02:19,527 INFO 61524 [egg-security] use nosniff middleware
+2021-02-25 16:02:19,528 INFO 61524 [egg-security] use xssProtection middleware
+2021-02-25 16:02:19,528 INFO 61524 [egg-security] use xframe middleware
+2021-02-25 16:02:19,529 INFO 61524 [egg-security] use dta middleware
+2021-02-25 16:02:19,529 INFO 61524 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:02:19,536 INFO 61524 [egg:core] dump config after load, 4ms
+2021-02-25 16:02:19,544 INFO 61524 [egg-watcher:application] watcher start success
+2021-02-25 16:02:19,550 INFO 61524 [egg:core] dump config after ready, 4ms
+2021-02-25 16:03:54,667 INFO 61679 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:03:54,692 INFO 61679 [egg-multipart] stream mode enable
+2021-02-25 16:03:54,783 INFO 61679 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:03:54,784 INFO 61679 [egg-security] use csrf middleware
+2021-02-25 16:03:54,785 INFO 61679 [egg-security] use methodnoallow middleware
+2021-02-25 16:03:54,785 INFO 61679 [egg-security] use noopen middleware
+2021-02-25 16:03:54,786 INFO 61679 [egg-security] use nosniff middleware
+2021-02-25 16:03:54,786 INFO 61679 [egg-security] use xssProtection middleware
+2021-02-25 16:03:54,787 INFO 61679 [egg-security] use xframe middleware
+2021-02-25 16:03:54,787 INFO 61679 [egg-security] use dta middleware
+2021-02-25 16:03:54,788 INFO 61679 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:03:54,796 INFO 61679 [egg:core] dump config after load, 6ms
+2021-02-25 16:03:54,804 INFO 61679 [egg-watcher:application] watcher start success
+2021-02-25 16:03:54,811 INFO 61679 [egg:core] dump config after ready, 5ms
+2021-02-25 16:04:05,486 INFO 61697 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:04:05,511 INFO 61697 [egg-multipart] stream mode enable
+2021-02-25 16:04:05,576 INFO 61697 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:04:05,577 INFO 61697 [egg-security] use csrf middleware
+2021-02-25 16:04:05,578 INFO 61697 [egg-security] use methodnoallow middleware
+2021-02-25 16:04:05,578 INFO 61697 [egg-security] use noopen middleware
+2021-02-25 16:04:05,578 INFO 61697 [egg-security] use nosniff middleware
+2021-02-25 16:04:05,579 INFO 61697 [egg-security] use xssProtection middleware
+2021-02-25 16:04:05,579 INFO 61697 [egg-security] use xframe middleware
+2021-02-25 16:04:05,579 INFO 61697 [egg-security] use dta middleware
+2021-02-25 16:04:05,579 INFO 61697 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:04:05,585 INFO 61697 [egg:core] dump config after load, 3ms
+2021-02-25 16:04:05,593 INFO 61697 [egg-watcher:application] watcher start success
+2021-02-25 16:04:05,600 INFO 61697 [egg:core] dump config after ready, 5ms
+2021-02-25 16:04:23,474 INFO 61720 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:04:23,495 INFO 61720 [egg-multipart] stream mode enable
+2021-02-25 16:04:23,549 INFO 61720 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:04:23,551 INFO 61720 [egg-security] use csrf middleware
+2021-02-25 16:04:23,551 INFO 61720 [egg-security] use methodnoallow middleware
+2021-02-25 16:04:23,552 INFO 61720 [egg-security] use noopen middleware
+2021-02-25 16:04:23,552 INFO 61720 [egg-security] use nosniff middleware
+2021-02-25 16:04:23,552 INFO 61720 [egg-security] use xssProtection middleware
+2021-02-25 16:04:23,553 INFO 61720 [egg-security] use xframe middleware
+2021-02-25 16:04:23,553 INFO 61720 [egg-security] use dta middleware
+2021-02-25 16:04:23,553 INFO 61720 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:04:23,560 INFO 61720 [egg:core] dump config after load, 3ms
+2021-02-25 16:04:23,568 INFO 61720 [egg-watcher:application] watcher start success
+2021-02-25 16:04:23,576 INFO 61720 [egg:core] dump config after ready, 5ms
+2021-02-25 16:05:25,620 INFO 61790 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:05:25,645 INFO 61790 [egg-multipart] stream mode enable
+2021-02-25 16:05:25,736 INFO 61790 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:05:25,739 INFO 61790 [egg-security] use csrf middleware
+2021-02-25 16:05:25,740 INFO 61790 [egg-security] use methodnoallow middleware
+2021-02-25 16:05:25,740 INFO 61790 [egg-security] use noopen middleware
+2021-02-25 16:05:25,741 INFO 61790 [egg-security] use nosniff middleware
+2021-02-25 16:05:25,742 INFO 61790 [egg-security] use xssProtection middleware
+2021-02-25 16:05:25,742 INFO 61790 [egg-security] use xframe middleware
+2021-02-25 16:05:25,743 INFO 61790 [egg-security] use dta middleware
+2021-02-25 16:05:25,743 INFO 61790 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:05:25,752 INFO 61790 [egg:core] dump config after load, 4ms
+2021-02-25 16:05:25,761 INFO 61790 [egg-watcher:application] watcher start success
+2021-02-25 16:05:25,768 INFO 61790 [egg:core] dump config after ready, 4ms
+2021-02-25 16:34:41,224 INFO 63822 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:34:41,249 INFO 63822 [egg-multipart] stream mode enable
+2021-02-25 16:34:41,348 INFO 63822 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:34:41,350 INFO 63822 [egg-security] use csrf middleware
+2021-02-25 16:34:41,351 INFO 63822 [egg-security] use methodnoallow middleware
+2021-02-25 16:34:41,351 INFO 63822 [egg-security] use noopen middleware
+2021-02-25 16:34:41,352 INFO 63822 [egg-security] use nosniff middleware
+2021-02-25 16:34:41,353 INFO 63822 [egg-security] use xssProtection middleware
+2021-02-25 16:34:41,354 INFO 63822 [egg-security] use xframe middleware
+2021-02-25 16:34:41,354 INFO 63822 [egg-security] use dta middleware
+2021-02-25 16:34:41,354 INFO 63822 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:34:41,364 INFO 63822 [egg:core] dump config after load, 7ms
+2021-02-25 16:34:41,374 INFO 63822 [egg-watcher:application] watcher start success
+2021-02-25 16:34:41,383 INFO 63822 [egg:core] dump config after ready, 7ms
+2021-02-25 16:34:44,840 INFO 63834 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:34:44,864 INFO 63834 [egg-multipart] stream mode enable
+2021-02-25 16:34:44,924 INFO 63834 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:34:44,926 INFO 63834 [egg-security] use csrf middleware
+2021-02-25 16:34:44,927 INFO 63834 [egg-security] use methodnoallow middleware
+2021-02-25 16:34:44,927 INFO 63834 [egg-security] use noopen middleware
+2021-02-25 16:34:44,927 INFO 63834 [egg-security] use nosniff middleware
+2021-02-25 16:34:44,928 INFO 63834 [egg-security] use xssProtection middleware
+2021-02-25 16:34:44,928 INFO 63834 [egg-security] use xframe middleware
+2021-02-25 16:34:44,928 INFO 63834 [egg-security] use dta middleware
+2021-02-25 16:34:44,928 INFO 63834 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:34:44,935 INFO 63834 [egg:core] dump config after load, 4ms
+2021-02-25 16:34:44,943 INFO 63834 [egg-watcher:application] watcher start success
+2021-02-25 16:34:44,950 INFO 63834 [egg:core] dump config after ready, 5ms
+2021-02-25 16:42:54,801 INFO 64363 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:42:54,829 INFO 64363 [egg-multipart] stream mode enable
+2021-02-25 16:42:54,929 INFO 64363 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:42:54,931 INFO 64363 [egg-security] use csrf middleware
+2021-02-25 16:42:54,931 INFO 64363 [egg-security] use methodnoallow middleware
+2021-02-25 16:42:54,932 INFO 64363 [egg-security] use noopen middleware
+2021-02-25 16:42:54,933 INFO 64363 [egg-security] use nosniff middleware
+2021-02-25 16:42:54,933 INFO 64363 [egg-security] use xssProtection middleware
+2021-02-25 16:42:54,934 INFO 64363 [egg-security] use xframe middleware
+2021-02-25 16:42:54,935 INFO 64363 [egg-security] use dta middleware
+2021-02-25 16:42:54,935 INFO 64363 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:42:54,944 INFO 64363 [egg:core] dump config after load, 6ms
+2021-02-25 16:42:54,952 INFO 64363 [egg-watcher:application] watcher start success
+2021-02-25 16:42:54,960 INFO 64363 [egg:core] dump config after ready, 6ms
+2021-02-25 16:43:16,945 INFO 64399 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:43:16,969 INFO 64399 [egg-multipart] stream mode enable
+2021-02-25 16:43:17,057 INFO 64399 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:43:17,058 INFO 64399 [egg-security] use csrf middleware
+2021-02-25 16:43:17,059 INFO 64399 [egg-security] use methodnoallow middleware
+2021-02-25 16:43:17,060 INFO 64399 [egg-security] use noopen middleware
+2021-02-25 16:43:17,060 INFO 64399 [egg-security] use nosniff middleware
+2021-02-25 16:43:17,061 INFO 64399 [egg-security] use xssProtection middleware
+2021-02-25 16:43:17,061 INFO 64399 [egg-security] use xframe middleware
+2021-02-25 16:43:17,062 INFO 64399 [egg-security] use dta middleware
+2021-02-25 16:43:17,062 INFO 64399 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:43:17,068 INFO 64399 [egg:core] dump config after load, 3ms
+2021-02-25 16:43:17,075 INFO 64399 [egg-watcher:application] watcher start success
+2021-02-25 16:43:17,082 INFO 64399 [egg:core] dump config after ready, 6ms
+2021-02-25 16:45:13,206 INFO 64501 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:45:13,230 INFO 64501 [egg-multipart] stream mode enable
+2021-02-25 16:45:13,329 INFO 64501 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:45:13,331 INFO 64501 [egg-security] use csrf middleware
+2021-02-25 16:45:13,331 INFO 64501 [egg-security] use methodnoallow middleware
+2021-02-25 16:45:13,332 INFO 64501 [egg-security] use noopen middleware
+2021-02-25 16:45:13,332 INFO 64501 [egg-security] use nosniff middleware
+2021-02-25 16:45:13,333 INFO 64501 [egg-security] use xssProtection middleware
+2021-02-25 16:45:13,334 INFO 64501 [egg-security] use xframe middleware
+2021-02-25 16:45:13,334 INFO 64501 [egg-security] use dta middleware
+2021-02-25 16:45:13,334 INFO 64501 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:45:13,344 INFO 64501 [egg:core] dump config after load, 6ms
+2021-02-25 16:45:13,352 INFO 64501 [egg-watcher:application] watcher start success
+2021-02-25 16:45:13,359 INFO 64501 [egg:core] dump config after ready, 6ms
+2021-02-25 16:45:15,664 INFO 64511 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:45:15,688 INFO 64511 [egg-multipart] stream mode enable
+2021-02-25 16:45:15,745 INFO 64511 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:45:15,746 INFO 64511 [egg-security] use csrf middleware
+2021-02-25 16:45:15,747 INFO 64511 [egg-security] use methodnoallow middleware
+2021-02-25 16:45:15,747 INFO 64511 [egg-security] use noopen middleware
+2021-02-25 16:45:15,748 INFO 64511 [egg-security] use nosniff middleware
+2021-02-25 16:45:15,748 INFO 64511 [egg-security] use xssProtection middleware
+2021-02-25 16:45:15,749 INFO 64511 [egg-security] use xframe middleware
+2021-02-25 16:45:15,749 INFO 64511 [egg-security] use dta middleware
+2021-02-25 16:45:15,749 INFO 64511 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:45:15,755 INFO 64511 [egg:core] dump config after load, 3ms
+2021-02-25 16:45:15,763 INFO 64511 [egg-watcher:application] watcher start success
+2021-02-25 16:45:15,770 INFO 64511 [egg:core] dump config after ready, 5ms
+2021-02-25 16:46:04,495 INFO 64603 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:46:04,519 INFO 64603 [egg-multipart] stream mode enable
+2021-02-25 16:46:04,595 INFO 64603 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:46:04,597 INFO 64603 [egg-security] use csrf middleware
+2021-02-25 16:46:04,598 INFO 64603 [egg-security] use methodnoallow middleware
+2021-02-25 16:46:04,598 INFO 64603 [egg-security] use noopen middleware
+2021-02-25 16:46:04,599 INFO 64603 [egg-security] use nosniff middleware
+2021-02-25 16:46:04,600 INFO 64603 [egg-security] use xssProtection middleware
+2021-02-25 16:46:04,600 INFO 64603 [egg-security] use xframe middleware
+2021-02-25 16:46:04,601 INFO 64603 [egg-security] use dta middleware
+2021-02-25 16:46:04,601 INFO 64603 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:46:04,606 INFO 64603 [egg:core] dump config after load, 3ms
+2021-02-25 16:46:04,614 INFO 64603 [egg-watcher:application] watcher start success
+2021-02-25 16:46:04,620 INFO 64603 [egg:core] dump config after ready, 5ms
+2021-02-25 16:50:12,491 INFO 64824 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 16:50:12,518 INFO 64824 [egg-multipart] stream mode enable
+2021-02-25 16:50:12,611 INFO 64824 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 16:50:12,613 INFO 64824 [egg-security] use csrf middleware
+2021-02-25 16:50:12,613 INFO 64824 [egg-security] use methodnoallow middleware
+2021-02-25 16:50:12,614 INFO 64824 [egg-security] use noopen middleware
+2021-02-25 16:50:12,615 INFO 64824 [egg-security] use nosniff middleware
+2021-02-25 16:50:12,615 INFO 64824 [egg-security] use xssProtection middleware
+2021-02-25 16:50:12,616 INFO 64824 [egg-security] use xframe middleware
+2021-02-25 16:50:12,616 INFO 64824 [egg-security] use dta middleware
+2021-02-25 16:50:12,616 INFO 64824 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 16:50:12,626 INFO 64824 [egg:core] dump config after load, 7ms
+2021-02-25 16:50:12,634 INFO 64824 [egg-watcher:application] watcher start success
+2021-02-25 16:50:12,642 INFO 64824 [egg:core] dump config after ready, 6ms
+2021-02-25 21:47:08,805 INFO 75055 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 21:47:08,825 INFO 75055 [egg-multipart] stream mode enable
+2021-02-25 21:47:08,921 INFO 75055 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 21:47:08,923 INFO 75055 [egg-security] use csrf middleware
+2021-02-25 21:47:08,924 INFO 75055 [egg-security] use methodnoallow middleware
+2021-02-25 21:47:08,925 INFO 75055 [egg-security] use noopen middleware
+2021-02-25 21:47:08,926 INFO 75055 [egg-security] use nosniff middleware
+2021-02-25 21:47:08,927 INFO 75055 [egg-security] use xssProtection middleware
+2021-02-25 21:47:08,927 INFO 75055 [egg-security] use xframe middleware
+2021-02-25 21:47:08,928 INFO 75055 [egg-security] use dta middleware
+2021-02-25 21:47:08,928 INFO 75055 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 21:47:08,935 INFO 75055 [egg:core] dump config after load, 4ms
+2021-02-25 21:47:08,944 INFO 75055 [egg-watcher:application] watcher start success
+2021-02-25 21:47:08,952 INFO 75055 [egg:core] dump config after ready, 5ms
+2021-02-25 22:01:09,614 INFO 75896 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:01:09,638 INFO 75896 [egg-multipart] stream mode enable
+2021-02-25 22:01:09,727 INFO 75896 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:01:09,728 INFO 75896 [egg-security] use csrf middleware
+2021-02-25 22:01:09,729 INFO 75896 [egg-security] use methodnoallow middleware
+2021-02-25 22:01:09,730 INFO 75896 [egg-security] use noopen middleware
+2021-02-25 22:01:09,730 INFO 75896 [egg-security] use nosniff middleware
+2021-02-25 22:01:09,731 INFO 75896 [egg-security] use xssProtection middleware
+2021-02-25 22:01:09,731 INFO 75896 [egg-security] use xframe middleware
+2021-02-25 22:01:09,732 INFO 75896 [egg-security] use dta middleware
+2021-02-25 22:01:09,732 INFO 75896 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:01:09,739 INFO 75896 [egg:core] dump config after load, 5ms
+2021-02-25 22:01:09,747 INFO 75896 [egg-watcher:application] watcher start success
+2021-02-25 22:01:09,753 INFO 75896 [egg:core] dump config after ready, 5ms
+2021-02-25 22:01:41,749 INFO 75947 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:01:41,768 INFO 75947 [egg-multipart] stream mode enable
+2021-02-25 22:01:41,821 INFO 75947 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:01:41,823 INFO 75947 [egg-security] use csrf middleware
+2021-02-25 22:01:41,823 INFO 75947 [egg-security] use methodnoallow middleware
+2021-02-25 22:01:41,823 INFO 75947 [egg-security] use noopen middleware
+2021-02-25 22:01:41,824 INFO 75947 [egg-security] use nosniff middleware
+2021-02-25 22:01:41,824 INFO 75947 [egg-security] use xssProtection middleware
+2021-02-25 22:01:41,824 INFO 75947 [egg-security] use xframe middleware
+2021-02-25 22:01:41,825 INFO 75947 [egg-security] use dta middleware
+2021-02-25 22:01:41,825 INFO 75947 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:01:41,830 INFO 75947 [egg:core] dump config after load, 3ms
+2021-02-25 22:01:41,838 INFO 75947 [egg-watcher:application] watcher start success
+2021-02-25 22:01:41,844 INFO 75947 [egg:core] dump config after ready, 5ms
+2021-02-25 22:02:28,546 INFO 76028 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:02:28,568 INFO 76028 [egg-multipart] stream mode enable
+2021-02-25 22:02:28,621 INFO 76028 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:02:28,622 INFO 76028 [egg-security] use csrf middleware
+2021-02-25 22:02:28,623 INFO 76028 [egg-security] use methodnoallow middleware
+2021-02-25 22:02:28,623 INFO 76028 [egg-security] use noopen middleware
+2021-02-25 22:02:28,623 INFO 76028 [egg-security] use nosniff middleware
+2021-02-25 22:02:28,624 INFO 76028 [egg-security] use xssProtection middleware
+2021-02-25 22:02:28,624 INFO 76028 [egg-security] use xframe middleware
+2021-02-25 22:02:28,624 INFO 76028 [egg-security] use dta middleware
+2021-02-25 22:02:28,624 INFO 76028 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:02:28,630 INFO 76028 [egg:core] dump config after load, 3ms
+2021-02-25 22:02:28,637 INFO 76028 [egg-watcher:application] watcher start success
+2021-02-25 22:02:28,644 INFO 76028 [egg:core] dump config after ready, 6ms
+2021-02-25 22:02:44,931 INFO 76048 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:02:44,951 INFO 76048 [egg-multipart] stream mode enable
+2021-02-25 22:02:45,000 INFO 76048 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:02:45,002 INFO 76048 [egg-security] use csrf middleware
+2021-02-25 22:02:45,002 INFO 76048 [egg-security] use methodnoallow middleware
+2021-02-25 22:02:45,002 INFO 76048 [egg-security] use noopen middleware
+2021-02-25 22:02:45,003 INFO 76048 [egg-security] use nosniff middleware
+2021-02-25 22:02:45,003 INFO 76048 [egg-security] use xssProtection middleware
+2021-02-25 22:02:45,003 INFO 76048 [egg-security] use xframe middleware
+2021-02-25 22:02:45,004 INFO 76048 [egg-security] use dta middleware
+2021-02-25 22:02:45,004 INFO 76048 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:02:45,010 INFO 76048 [egg:core] dump config after load, 4ms
+2021-02-25 22:02:45,017 INFO 76048 [egg-watcher:application] watcher start success
+2021-02-25 22:02:45,024 INFO 76048 [egg:core] dump config after ready, 5ms
+2021-02-25 22:04:11,724 INFO 76189 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:04:11,747 INFO 76189 [egg-multipart] stream mode enable
+2021-02-25 22:04:11,840 INFO 76189 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:04:11,843 INFO 76189 [egg-security] use csrf middleware
+2021-02-25 22:04:11,844 INFO 76189 [egg-security] use methodnoallow middleware
+2021-02-25 22:04:11,844 INFO 76189 [egg-security] use noopen middleware
+2021-02-25 22:04:11,845 INFO 76189 [egg-security] use nosniff middleware
+2021-02-25 22:04:11,845 INFO 76189 [egg-security] use xssProtection middleware
+2021-02-25 22:04:11,846 INFO 76189 [egg-security] use xframe middleware
+2021-02-25 22:04:11,847 INFO 76189 [egg-security] use dta middleware
+2021-02-25 22:04:11,847 INFO 76189 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:04:11,855 INFO 76189 [egg:core] dump config after load, 4ms
+2021-02-25 22:04:11,862 INFO 76189 [egg-watcher:application] watcher start success
+2021-02-25 22:04:11,869 INFO 76189 [egg:core] dump config after ready, 6ms
+2021-02-25 22:04:44,851 INFO 76252 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:04:44,873 INFO 76252 [egg-multipart] stream mode enable
+2021-02-25 22:04:44,955 INFO 76252 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:04:44,956 INFO 76252 [egg-security] use csrf middleware
+2021-02-25 22:04:44,957 INFO 76252 [egg-security] use methodnoallow middleware
+2021-02-25 22:04:44,958 INFO 76252 [egg-security] use noopen middleware
+2021-02-25 22:04:44,958 INFO 76252 [egg-security] use nosniff middleware
+2021-02-25 22:04:44,959 INFO 76252 [egg-security] use xssProtection middleware
+2021-02-25 22:04:44,959 INFO 76252 [egg-security] use xframe middleware
+2021-02-25 22:04:44,960 INFO 76252 [egg-security] use dta middleware
+2021-02-25 22:04:44,960 INFO 76252 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:04:44,967 INFO 76252 [egg:core] dump config after load, 2ms
+2021-02-25 22:04:44,975 INFO 76252 [egg-watcher:application] watcher start success
+2021-02-25 22:04:44,981 INFO 76252 [egg:core] dump config after ready, 5ms
+2021-02-25 22:05:33,024 INFO 76306 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:05:33,049 INFO 76306 [egg-multipart] stream mode enable
+2021-02-25 22:05:33,107 INFO 76306 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:05:33,108 INFO 76306 [egg-security] use csrf middleware
+2021-02-25 22:05:33,109 INFO 76306 [egg-security] use methodnoallow middleware
+2021-02-25 22:05:33,109 INFO 76306 [egg-security] use noopen middleware
+2021-02-25 22:05:33,110 INFO 76306 [egg-security] use nosniff middleware
+2021-02-25 22:05:33,110 INFO 76306 [egg-security] use xssProtection middleware
+2021-02-25 22:05:33,110 INFO 76306 [egg-security] use xframe middleware
+2021-02-25 22:05:33,110 INFO 76306 [egg-security] use dta middleware
+2021-02-25 22:05:33,110 INFO 76306 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:05:33,116 INFO 76306 [egg:core] dump config after load, 3ms
+2021-02-25 22:05:33,122 INFO 76306 [egg-watcher:application] watcher start success
+2021-02-25 22:05:33,128 INFO 76306 [egg:core] dump config after ready, 4ms
+2021-02-25 22:17:28,354 INFO 77119 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:17:28,374 INFO 77119 [egg-multipart] stream mode enable
+2021-02-25 22:17:28,459 INFO 77119 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:17:28,460 INFO 77119 [egg-security] use csrf middleware
+2021-02-25 22:17:28,461 INFO 77119 [egg-security] use methodnoallow middleware
+2021-02-25 22:17:28,461 INFO 77119 [egg-security] use noopen middleware
+2021-02-25 22:17:28,462 INFO 77119 [egg-security] use nosniff middleware
+2021-02-25 22:17:28,463 INFO 77119 [egg-security] use xssProtection middleware
+2021-02-25 22:17:28,463 INFO 77119 [egg-security] use xframe middleware
+2021-02-25 22:17:28,464 INFO 77119 [egg-security] use dta middleware
+2021-02-25 22:17:28,464 INFO 77119 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:17:28,472 INFO 77119 [egg:core] dump config after load, 5ms
+2021-02-25 22:17:28,481 INFO 77119 [egg-watcher:application] watcher start success
+2021-02-25 22:17:28,487 INFO 77119 [egg:core] dump config after ready, 4ms
+2021-02-25 22:24:26,595 INFO 77579 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:24:26,617 INFO 77579 [egg-multipart] stream mode enable
+2021-02-25 22:24:26,704 INFO 77579 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:24:26,707 INFO 77579 [egg-security] use csrf middleware
+2021-02-25 22:24:26,708 INFO 77579 [egg-security] use methodnoallow middleware
+2021-02-25 22:24:26,708 INFO 77579 [egg-security] use noopen middleware
+2021-02-25 22:24:26,709 INFO 77579 [egg-security] use nosniff middleware
+2021-02-25 22:24:26,709 INFO 77579 [egg-security] use xssProtection middleware
+2021-02-25 22:24:26,710 INFO 77579 [egg-security] use xframe middleware
+2021-02-25 22:24:26,710 INFO 77579 [egg-security] use dta middleware
+2021-02-25 22:24:26,710 INFO 77579 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:24:26,717 INFO 77579 [egg:core] dump config after load, 3ms
+2021-02-25 22:24:26,726 INFO 77579 [egg-watcher:application] watcher start success
+2021-02-25 22:24:26,735 INFO 77579 [egg:core] dump config after ready, 7ms
+2021-02-25 22:26:03,856 INFO 77659 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:26:03,882 INFO 77659 [egg-multipart] stream mode enable
+2021-02-25 22:26:03,977 INFO 77659 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:26:03,980 INFO 77659 [egg-security] use csrf middleware
+2021-02-25 22:26:03,981 INFO 77659 [egg-security] use methodnoallow middleware
+2021-02-25 22:26:03,981 INFO 77659 [egg-security] use noopen middleware
+2021-02-25 22:26:03,982 INFO 77659 [egg-security] use nosniff middleware
+2021-02-25 22:26:03,983 INFO 77659 [egg-security] use xssProtection middleware
+2021-02-25 22:26:03,983 INFO 77659 [egg-security] use xframe middleware
+2021-02-25 22:26:03,984 INFO 77659 [egg-security] use dta middleware
+2021-02-25 22:26:03,984 INFO 77659 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:26:03,992 INFO 77659 [egg:core] dump config after load, 5ms
+2021-02-25 22:26:04,004 INFO 77659 [egg-watcher:application] watcher start success
+2021-02-25 22:26:04,011 INFO 77659 [egg:core] dump config after ready, 5ms
+2021-02-25 22:27:21,886 INFO 77740 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:27:21,908 INFO 77740 [egg-multipart] stream mode enable
+2021-02-25 22:27:21,998 INFO 77740 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:27:22,000 INFO 77740 [egg-security] use csrf middleware
+2021-02-25 22:27:22,001 INFO 77740 [egg-security] use methodnoallow middleware
+2021-02-25 22:27:22,002 INFO 77740 [egg-security] use noopen middleware
+2021-02-25 22:27:22,003 INFO 77740 [egg-security] use nosniff middleware
+2021-02-25 22:27:22,003 INFO 77740 [egg-security] use xssProtection middleware
+2021-02-25 22:27:22,004 INFO 77740 [egg-security] use xframe middleware
+2021-02-25 22:27:22,004 INFO 77740 [egg-security] use dta middleware
+2021-02-25 22:27:22,004 INFO 77740 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:27:22,011 INFO 77740 [egg:core] dump config after load, 4ms
+2021-02-25 22:27:22,021 INFO 77740 [egg-watcher:application] watcher start success
+2021-02-25 22:27:22,027 INFO 77740 [egg:core] dump config after ready, 4ms
+2021-02-25 22:28:17,453 INFO 77805 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:28:17,474 INFO 77805 [egg-multipart] stream mode enable
+2021-02-25 22:28:17,557 INFO 77805 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:28:17,559 INFO 77805 [egg-security] use csrf middleware
+2021-02-25 22:28:17,560 INFO 77805 [egg-security] use methodnoallow middleware
+2021-02-25 22:28:17,561 INFO 77805 [egg-security] use noopen middleware
+2021-02-25 22:28:17,562 INFO 77805 [egg-security] use nosniff middleware
+2021-02-25 22:28:17,562 INFO 77805 [egg-security] use xssProtection middleware
+2021-02-25 22:28:17,563 INFO 77805 [egg-security] use xframe middleware
+2021-02-25 22:28:17,563 INFO 77805 [egg-security] use dta middleware
+2021-02-25 22:28:17,563 INFO 77805 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:28:17,571 INFO 77805 [egg:core] dump config after load, 5ms
+2021-02-25 22:28:17,581 INFO 77805 [egg-watcher:application] watcher start success
+2021-02-25 22:28:17,588 INFO 77805 [egg:core] dump config after ready, 5ms
+2021-02-25 22:29:37,095 INFO 77876 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:29:37,119 INFO 77876 [egg-multipart] stream mode enable
+2021-02-25 22:29:37,176 INFO 77876 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:29:37,178 INFO 77876 [egg-security] use csrf middleware
+2021-02-25 22:29:37,178 INFO 77876 [egg-security] use methodnoallow middleware
+2021-02-25 22:29:37,179 INFO 77876 [egg-security] use noopen middleware
+2021-02-25 22:29:37,179 INFO 77876 [egg-security] use nosniff middleware
+2021-02-25 22:29:37,179 INFO 77876 [egg-security] use xssProtection middleware
+2021-02-25 22:29:37,180 INFO 77876 [egg-security] use xframe middleware
+2021-02-25 22:29:37,180 INFO 77876 [egg-security] use dta middleware
+2021-02-25 22:29:37,180 INFO 77876 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:29:37,187 INFO 77876 [egg:core] dump config after load, 4ms
+2021-02-25 22:29:37,193 INFO 77876 [egg-watcher:application] watcher start success
+2021-02-25 22:29:37,199 INFO 77876 [egg:core] dump config after ready, 4ms
+2021-02-25 22:29:48,021 INFO 77905 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:29:48,043 INFO 77905 [egg-multipart] stream mode enable
+2021-02-25 22:29:48,101 INFO 77905 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:29:48,102 INFO 77905 [egg-security] use csrf middleware
+2021-02-25 22:29:48,103 INFO 77905 [egg-security] use methodnoallow middleware
+2021-02-25 22:29:48,103 INFO 77905 [egg-security] use noopen middleware
+2021-02-25 22:29:48,103 INFO 77905 [egg-security] use nosniff middleware
+2021-02-25 22:29:48,104 INFO 77905 [egg-security] use xssProtection middleware
+2021-02-25 22:29:48,104 INFO 77905 [egg-security] use xframe middleware
+2021-02-25 22:29:48,104 INFO 77905 [egg-security] use dta middleware
+2021-02-25 22:29:48,104 INFO 77905 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:29:48,111 INFO 77905 [egg:core] dump config after load, 3ms
+2021-02-25 22:29:48,118 INFO 77905 [egg-watcher:application] watcher start success
+2021-02-25 22:29:48,125 INFO 77905 [egg:core] dump config after ready, 6ms
+2021-02-25 22:48:27,170 INFO 79271 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:48:27,194 INFO 79271 [egg-multipart] stream mode enable
+2021-02-25 22:48:27,289 INFO 79271 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:48:27,291 INFO 79271 [egg-security] use csrf middleware
+2021-02-25 22:48:27,291 INFO 79271 [egg-security] use methodnoallow middleware
+2021-02-25 22:48:27,292 INFO 79271 [egg-security] use noopen middleware
+2021-02-25 22:48:27,293 INFO 79271 [egg-security] use nosniff middleware
+2021-02-25 22:48:27,294 INFO 79271 [egg-security] use xssProtection middleware
+2021-02-25 22:48:27,294 INFO 79271 [egg-security] use xframe middleware
+2021-02-25 22:48:27,295 INFO 79271 [egg-security] use dta middleware
+2021-02-25 22:48:27,295 INFO 79271 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:48:27,304 INFO 79271 [egg:core] dump config after load, 6ms
+2021-02-25 22:48:27,312 INFO 79271 [egg-watcher:application] watcher start success
+2021-02-25 22:48:27,318 INFO 79271 [egg:core] dump config after ready, 5ms
+2021-02-25 22:48:40,123 INFO 79297 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:48:40,145 INFO 79297 [egg-multipart] stream mode enable
+2021-02-25 22:48:40,202 INFO 79297 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:48:40,203 INFO 79297 [egg-security] use csrf middleware
+2021-02-25 22:48:40,204 INFO 79297 [egg-security] use methodnoallow middleware
+2021-02-25 22:48:40,204 INFO 79297 [egg-security] use noopen middleware
+2021-02-25 22:48:40,204 INFO 79297 [egg-security] use nosniff middleware
+2021-02-25 22:48:40,205 INFO 79297 [egg-security] use xssProtection middleware
+2021-02-25 22:48:40,205 INFO 79297 [egg-security] use xframe middleware
+2021-02-25 22:48:40,205 INFO 79297 [egg-security] use dta middleware
+2021-02-25 22:48:40,205 INFO 79297 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:48:40,211 INFO 79297 [egg:core] dump config after load, 2ms
+2021-02-25 22:48:40,218 INFO 79297 [egg-watcher:application] watcher start success
+2021-02-25 22:48:40,225 INFO 79297 [egg:core] dump config after ready, 5ms
+2021-02-25 22:51:58,214 INFO 79579 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:51:58,260 INFO 79579 [egg-multipart] stream mode enable
+2021-02-25 22:51:58,350 INFO 79579 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:51:58,352 INFO 79579 [egg-security] use csrf middleware
+2021-02-25 22:51:58,353 INFO 79579 [egg-security] use methodnoallow middleware
+2021-02-25 22:51:58,354 INFO 79579 [egg-security] use noopen middleware
+2021-02-25 22:51:58,354 INFO 79579 [egg-security] use nosniff middleware
+2021-02-25 22:51:58,355 INFO 79579 [egg-security] use xssProtection middleware
+2021-02-25 22:51:58,355 INFO 79579 [egg-security] use xframe middleware
+2021-02-25 22:51:58,356 INFO 79579 [egg-security] use dta middleware
+2021-02-25 22:51:58,356 INFO 79579 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:51:58,363 INFO 79579 [egg:core] dump config after load, 4ms
+2021-02-25 22:51:58,371 INFO 79579 [egg-watcher:application] watcher start success
+2021-02-25 22:51:58,378 INFO 79579 [egg:core] dump config after ready, 5ms
+2021-02-25 22:53:18,722 INFO 79653 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:53:18,745 INFO 79653 [egg-multipart] stream mode enable
+2021-02-25 22:53:18,830 INFO 79653 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:53:18,832 INFO 79653 [egg-security] use csrf middleware
+2021-02-25 22:53:18,832 INFO 79653 [egg-security] use methodnoallow middleware
+2021-02-25 22:53:18,833 INFO 79653 [egg-security] use noopen middleware
+2021-02-25 22:53:18,834 INFO 79653 [egg-security] use nosniff middleware
+2021-02-25 22:53:18,834 INFO 79653 [egg-security] use xssProtection middleware
+2021-02-25 22:53:18,835 INFO 79653 [egg-security] use xframe middleware
+2021-02-25 22:53:18,835 INFO 79653 [egg-security] use dta middleware
+2021-02-25 22:53:18,835 INFO 79653 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:53:18,842 INFO 79653 [egg:core] dump config after load, 4ms
+2021-02-25 22:53:18,850 INFO 79653 [egg-watcher:application] watcher start success
+2021-02-25 22:53:18,857 INFO 79653 [egg:core] dump config after ready, 6ms
+2021-02-25 22:54:17,763 INFO 79699 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:54:17,786 INFO 79699 [egg-multipart] stream mode enable
+2021-02-25 22:54:17,873 INFO 79699 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:54:17,875 INFO 79699 [egg-security] use csrf middleware
+2021-02-25 22:54:17,875 INFO 79699 [egg-security] use methodnoallow middleware
+2021-02-25 22:54:17,876 INFO 79699 [egg-security] use noopen middleware
+2021-02-25 22:54:17,877 INFO 79699 [egg-security] use nosniff middleware
+2021-02-25 22:54:17,877 INFO 79699 [egg-security] use xssProtection middleware
+2021-02-25 22:54:17,878 INFO 79699 [egg-security] use xframe middleware
+2021-02-25 22:54:17,878 INFO 79699 [egg-security] use dta middleware
+2021-02-25 22:54:17,878 INFO 79699 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:54:17,885 INFO 79699 [egg:core] dump config after load, 4ms
+2021-02-25 22:54:17,894 INFO 79699 [egg-watcher:application] watcher start success
+2021-02-25 22:54:17,898 INFO 79699 [egg:core] dump config after ready, 3ms
+2021-02-25 22:54:28,360 INFO 79726 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:54:28,382 INFO 79726 [egg-multipart] stream mode enable
+2021-02-25 22:54:28,439 INFO 79726 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:54:28,441 INFO 79726 [egg-security] use csrf middleware
+2021-02-25 22:54:28,441 INFO 79726 [egg-security] use methodnoallow middleware
+2021-02-25 22:54:28,442 INFO 79726 [egg-security] use noopen middleware
+2021-02-25 22:54:28,442 INFO 79726 [egg-security] use nosniff middleware
+2021-02-25 22:54:28,442 INFO 79726 [egg-security] use xssProtection middleware
+2021-02-25 22:54:28,443 INFO 79726 [egg-security] use xframe middleware
+2021-02-25 22:54:28,443 INFO 79726 [egg-security] use dta middleware
+2021-02-25 22:54:28,443 INFO 79726 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:54:28,449 INFO 79726 [egg:core] dump config after load, 3ms
+2021-02-25 22:54:28,458 INFO 79726 [egg-watcher:application] watcher start success
+2021-02-25 22:54:28,464 INFO 79726 [egg:core] dump config after ready, 4ms
+2021-02-25 22:58:49,290 INFO 79915 [egg:logger] init all loggers with options: {"dir":"/Volumes/文件盘/documentBak/idea/me/egg-example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 22:58:49,314 INFO 79915 [egg-multipart] stream mode enable
+2021-02-25 22:58:49,394 INFO 79915 [egg-static] starting static serve /public/ -> /Volumes/文件盘/documentBak/idea/me/egg-example/app/public
+2021-02-25 22:58:49,396 INFO 79915 [egg-security] use csrf middleware
+2021-02-25 22:58:49,396 INFO 79915 [egg-security] use methodnoallow middleware
+2021-02-25 22:58:49,397 INFO 79915 [egg-security] use noopen middleware
+2021-02-25 22:58:49,397 INFO 79915 [egg-security] use nosniff middleware
+2021-02-25 22:58:49,398 INFO 79915 [egg-security] use xssProtection middleware
+2021-02-25 22:58:49,398 INFO 79915 [egg-security] use xframe middleware
+2021-02-25 22:58:49,399 INFO 79915 [egg-security] use dta middleware
+2021-02-25 22:58:49,399 INFO 79915 [egg-security] compose 7 middlewares into one security middleware
+2021-02-25 22:58:49,406 INFO 79915 [egg:core] dump config after load, 4ms
+2021-02-25 22:58:49,413 INFO 79915 [egg-watcher:application] watcher start success
+2021-02-25 22:58:49,418 INFO 79915 [egg:core] dump config after ready, 4ms

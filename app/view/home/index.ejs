@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<title>B-UP 视频数据查看</title>
+	<meta name="keywords" content="bilibibi,up">
+	<meta name="description" content="B 站 UP 更新日历">
+	<link rel="stylesheet" type="text/css" href="/public/css/mdui.min.css">
+	<link rel="stylesheet" href="/public/css/calendar.css">
+</head>
+
+<body class="mdui-theme-primary-teal mdui-theme-accent-teal">
+	<div class="mdui-container">
+		<header class="mdui-row mdui-p-a-2">
+			<div class="mdui-col-xs-6 mdui-col-offset-xs-3">
+				<div class="mdui-textfield mdui-textfield-expandable mdui-textfield-expanded">
+					<input class="mdui-textfield-input" type="text" placeholder="UP 主完整名称或者 uid" id="keywords"/>
+					<button class="mdui-textfield-search mdui-btn mdui-btn-icon" data-toggle="search"><i class="mdui-icon material-icons">search</i></button>
+				</div>
+			</div>
+			<description class="mdui-col-xs-8 mdui-typo mdui-col-offset-xs-3 mdui-p-a-2">
+				<span class="data am-inline-block">
+					<span class="mdui-typo-title" >全年累计数据</span>
+					<a class="mdui-text-color-black mdui-p-a-1" mdui-drawer="{target: '#copyright'}"><mark>点击查看作者信息</mark></a>
+					<span class="legend">
+						<span class="mdui-p-a-1">图例:</span>
+						<span class="mdui-color-teal mdui-p-a-1">有发布</span>
+						<span class="mdui-p-a-1">未发布</span>
+					</span>
+					<!-- <label class="mdui-switch">
+						<span class="mdui-p-l-2">语言切换：</span>
+						<input type="checkbox" id="languageSelect" checked/>
+						<i class="mdui-switch-icon"></i>
+						<span class="mdui-p-a-1" id="dateLanguage">cn</span>
+					</label> -->
+					<br/>
+					<span>视频时长:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal" id="VideoLengthCount">0</strong> 分钟
+					<span>| 更新次数:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal" id="publishCount">0</strong>
+					<span>| 评论数:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal" id="commentCount">0</strong>
+					<span>| 弹幕数:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal" id="barrageCount">0</strong>
+					<span>| 联合视频数:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal" id="unionCount">0</strong>
+					<!-- <span>投币数:</span>
+					<strong class="mdui-typo-title mdui-text-color-teal">1000</strong> -->
+				</span>
+			
+			</description>
+		</header>
+
+		<div id="dateRender" class="mdui-container-fluid"></div>
+
+		<!--视频数据查看-->
+
+	</div>
+	<!-- 侧边栏内容 -->
+	<div id="copyright" class="mdui-drawer mdui-drawer-close mdui-color-teal mdui-p-a-5 mdui-typo">
+		<p>
+			<br />
+			一个喜欢吃西瓜的程序媛 <br />
+			期望成为一个有趣的妞 <br />
+			吴王苑外云 <br />
+			莫过两三巡 <br /> <br />
+			<a href="https://github.com/mowatermelon/all-year-calendar">仓库地址</a>
+		</p>
+		<button class="mdui-btn" mdui-drawer-close><i class="mdui-icon material-icons">close</i></button>
+	</div>
+
+	<script src="/public/js/mdui.min.js"></script>
+	<script src="/public/js/request.js" charset="utf-8" crossorigin="anonymous"></script>
+	<script src="/public/js/calendar.js" charset="utf-8"></script>
+	</div>
+</body>
+
+</html>

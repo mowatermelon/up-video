@@ -10,3 +10,31 @@
 ![image](https://user-images.githubusercontent.com/18508817/108474402-49ad8180-72ca-11eb-89a7-8050514f227f.png)
 
 ![image](https://user-images.githubusercontent.com/18508817/108489388-79658500-72dc-11eb-8c6f-347ea05ca680.png)
+
+## 项目使用
+
+see [egg docs][egg] for more detail.
+
+### Development
+
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
+```
+
+### Deploy
+
+```bash
+$ npm start
+$ npm stop
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
+- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+
+
+[egg]: https://eggjs.org

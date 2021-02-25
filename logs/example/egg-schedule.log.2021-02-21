@@ -1,0 +1,24 @@
+2021-02-21 09:35:24,501 INFO 8422 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68075501ms at 2021-02-22 04:30:00.002
+2021-02-21 09:35:24,502 INFO 8422 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51875499ms at 2021-02-22 00:00:00.001
+2021-02-21 09:35:24,502 INFO 8422 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51876498ms at 2021-02-22 00:00:01.000
+2021-02-21 09:35:24,341 INFO 8423 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-21 09:35:24,341 INFO 8423 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-21 09:35:24,341 INFO 8423 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-21 09:38:08,266 INFO 8627 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67911736ms at 2021-02-22 04:30:00.002
+2021-02-21 09:38:08,266 INFO 8627 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51711734ms at 2021-02-22 00:00:00.000
+2021-02-21 09:38:08,267 INFO 8627 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51712734ms at 2021-02-22 00:00:01.001
+2021-02-21 09:38:08,175 INFO 8628 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-21 09:38:08,175 INFO 8628 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-21 09:38:08,175 INFO 8628 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-21 09:40:24,761 INFO 8747 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-21 09:40:24,761 INFO 8747 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-21 09:40:24,761 INFO 8747 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-21 09:41:44,496 INFO 8800 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-21 09:41:44,496 INFO 8800 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-21 09:41:44,496 INFO 8800 [egg-schedule]: register schedule /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 00:00:00,871 INFO 8627 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399164ms at 2021-02-23 00:00:00.032
+2021-02-22 00:00:00,943 INFO 8800 [Job#1613923200796389755443496731] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-02-22 00:00:01,051 INFO 8800 [Job#1613923200796389755443496731] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 73ms. 
+2021-02-22 00:00:01,739 INFO 8800 [Job#16139232017373897559800993311] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-02-22 00:00:01,770 INFO 8800 [Job#16139232017373897559800993311] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 31ms. 
+2021-02-22 00:00:01,741 INFO 8627 [Timer] /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399261ms at 2021-02-23 00:00:01.002

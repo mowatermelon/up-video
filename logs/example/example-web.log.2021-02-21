@@ -1,0 +1,76 @@
+2021-02-21 09:35:29,294 ERROR 8423 [-/127.0.0.1/-/173ms GET /] nodejs.AssertionError: Can't find viewEngine for /Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.html
+    at ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:12:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 8423
+hostname: WudeMacBook-Pro
+
+2021-02-21 09:39:08,191 ERROR 8628 [-/127.0.0.1/-/186ms GET /] nodejs.AssertionError: Can't find viewEngine for /Volumes/文件盘/documentBak/idea/me/egg-example/app/view/home/index.html
+    at ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:12:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 8628
+hostname: WudeMacBook-Pro
+
+2021-02-21 09:40:09,029 ERROR 8628 [-/127.0.0.1/-/129ms GET /] nodejs.AssertionError: Can't find /home/index.html from /Volumes/文件盘/documentBak/idea/me/egg-example/app/view
+    at Map.resolve (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:12:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8628
+hostname: WudeMacBook-Pro
+
+2021-02-21 09:40:10,436 ERROR 8628 [-/127.0.0.1/-/95ms GET /] nodejs.AssertionError: Can't find /home/index.html from /Volumes/文件盘/documentBak/idea/me/egg-example/app/view
+    at Map.resolve (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Volumes/文件盘/documentBak/idea/me/egg-example/app/controller/home.js:12:5)
+    at async /Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Volumes/文件盘/documentBak/idea/me/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8628
+hostname: WudeMacBook-Pro
+
