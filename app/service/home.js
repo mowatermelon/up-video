@@ -27,6 +27,7 @@ class HomeService extends Service {
     if (!!result.code || !result.data) {
       return;
     }
+    console.log(this.config.BASE_URL + url, data, result.data);
     return result.data;
   }
   async findName(uname) {
