@@ -1,10 +1,12 @@
-(function () {
+'use strict';
+(function(window) {
   // #region 公共方法和全局状态管理
-  const $ = mdui.$;
+  const { mdui: _mdui, document: _document } = window;
+  const $ = _mdui.$;
   const config = {
     PUBLISH_CLASS: 'mdui-color-teal',
     DATE_RENDER_SELECTOR: 'dateRender',
-    DATE_RENDER_TYPE: ['cn', 'en'],
+    DATE_RENDER_TYPE: [ 'cn', 'en' ],
     LAN_SWITCH_SELECTOR: '#languageSelect',
     LAN_VAL_SELECTOR: '#dateLanguage',
     VIDEO_LIST_SELECTOR: '#VideoLengthCount',
@@ -21,10 +23,9 @@
   /**
    * 成功执行之后的提示
    * @param {string} msg 提示的信息
-   * @return null
    */
-  const successTip = function (msg) {
-    msg && mdui.snackbar({
+  const successTip = function(msg) {
+    msg && _mdui.snackbar({
       message: msg,
       position: 'top',
     });
@@ -42,7 +43,7 @@
           me.data('config').year = param;// 更新缓存数据年份
           me.find('div.year a:first').trigger('click', true);
         } else if (_config === 'getSelected') { // 获取当前当前年份选中的日期集合（注意不更新默认传入的值，要更新值请调用acceptChange方法）
-          return me.find('td.selected').map(function () {
+          return me.find('td.selected').map(function() {
             return getDateStr(this);
           }).get();
         } else if (_config === 'acceptChange') { // 更新日历值，这样才会保存选中的值，更换其他年份后，再切换到当前年份才会自动选中上一次选中的值
@@ -56,7 +57,7 @@
               .find('table tr:gt(1)')
               .find('td')
               .each(
-                function () {
+                function() {
                   if (param
                     .indexOf(this.cellIndex) !== -1) {
                     this.className = (this.className || '')
@@ -84,9 +85,9 @@
       return this
         .addClass('fullYearPicker')
         .each(
-          function () {
+          function() {
+            let year = _config.year || new Date().getFullYear();
             const me = $(this),
-              year = _config.year || new Date().getFullYear(),
               newConifg = {
                 cellClick: _config.cellClick,
                 disabledDay: _config.disabledDay,
@@ -98,17 +99,17 @@
             me.append('<div class="year">'
               + '<table>'
               + '<th class="year-operation-btn"><a href="#" class="chevron-left"><i class="mdui-icon material-icons">chevron_left</i></a></th>'
-              + '<th class="left_sencond_year year_btn">' + '' + '</th>'
-              + '<th class="left_first_year year_btn">' + '' + '</th>'
+              + '<th class="left_sencond_year year_btn"></th>'
+              + '<th class="left_first_year year_btn"></th>'
               + '<th id="cen_year" class="cen_year year_btn">' + year + '</th>'
-              + '<th class="right_first_year year_btn">' + '' + '</th>'
-              + '<th class="right_sencond_year year_btn">' + '' + '</th>'
+              + '<th class="right_first_year year_btn"></th>'
+              + '<th class="right_sencond_year year_btn"></th>'
               + '<th class="year-operation-btn"><a href="#" class="chevron-right"><i class="mdui-icon material-icons">chevron_right</i></a></th>'
               + '</table>'
               + '<div class="stone"></div></div><div class="picker"></div>')
               .find('.year-operation-btn')
               .on('click',
-                function (e, setYear) {
+                function(e, setYear) {
                   if (setYear) { year = me.data('config').year; } else { $(this).children('a').hasClass('chevron-left') ? year-- : year++; }
                   setYearMenu(year);
                   renderYear(
@@ -116,19 +117,19 @@
                     $(this).closest('div.fullYearPicker'),
                     newConifg.disabledDay,
                     newConifg.value);
-                  renderListDate();
-                  document.getElementById('cen_year').firstChild.data = year;
+                  window.renderListDate();
+                  _document.getElementById('cen_year').firstChild.data = year;
                   return false;
                 });
             setYearMenu(year);
             // 年份选择
-            $('.year .year_btn').on('click', function () {
+            $('.year .year_btn').on('click', function() {
               const class_name = $(this).attr('class');
               if (class_name.indexOf('cen_year') < 0) {
                 const year = parseInt($(this).text());
                 setYearMenu(year);
                 renderYear(year, me, newConifg.disabledDay, newConifg.value);
-                renderListDate();
+                window.renderListDate();
               }
             });
             renderYear(year, me, newConifg.disabledDay,
@@ -137,20 +138,34 @@
           });
     },
   });
-  window.onload = function () {
-    // 绑定检索事件
-    window.searchFn = function (...args) {
-      $(`td.${config.PUBLISH_CLASS}`).removeClass(config.PUBLISH_CLASS);
-      const keywords = $('#keywords').val();
-      window.requestByName(keywords, ...args);
-    };
+  const getCenterYear = function() {
+    return Number($('.cen_year').text());
+  };
+  const getFindData = function() {
+    return $.data(_document.body, 'findData');
+  };
+  // 绑定检索事件
+  const searchFn = function(...args) {
+    $(`td.${config.PUBLISH_CLASS}`).removeClass(config.PUBLISH_CLASS);
+    const keywords = $('#keywords').val();
+    const centerYear = getCenterYear();
+    const currYear = new Date().getFullYear();
+    const oldData = getFindData();
+    // 如果检索的年份是小于今年的，则代表数据所有数据都检索到了，不用请求接口
+    // 在当年有旧的数据的情况下，只有是等于的情况下，当年数据才需要刷新
+    if (oldData && centerYear !== currYear) {
+      return;
+    }
+    window.requestByName(keywords, ...args);
+  };
 
+  window.onload = function() {
     $('[data-toggle="search"]').on('click', throttleFn(searchFn));
-    $('#keywords').on('keydown', throttleFn(function (e) {
+    $('#keywords').on('keydown', throttleFn(function(e) {
       e.code === 'Enter' && searchFn();
     }));
 
-    $(config.LAN_SWITCH_SELECTOR).on('change', throttleFn(function () {
+    $(config.LAN_SWITCH_SELECTOR).on('change', throttleFn(function() {
       // const selectLanguage = $(this).prop('checked') ? config.DATE_RENDER_TYPE[0] : config.DATE_RENDER_TYPE[1];
       // $(config.LAN_VAL_SELECTOR).text(selectLanguage);
       // loading_calendar(config.DATE_RENDER_SELECTOR, selectLanguage);
@@ -173,20 +188,20 @@
   let aim_div = '';// 目标div 放置日历的位置
   let m = 0;// 使用标识,之前页面记录的几列
   let n = 0;// 使用标识,根据页面宽度决定日历分为几列
-  let language = 'cn';// 语言选择
+  // let language = 'cn';// 语言选择
   let month_arry;
   let week_arry;
-  const month_cn = new Array('一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月');// 月
-  const month_en = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');// 月
-  const week_cn = new Array('日', '一', '二', '三', '四', '五', '六');// 星期
-  const week_en = new Array('Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa');// 星期
+  const month_cn = [ '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月' ];// 月
+  const month_en = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];// 月
+  const week_cn = [ '日', '一', '二', '三', '四', '五', '六' ];// 星期
+  const week_en = [ 'Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa' ];// 星期
 
 
   loading_calendar(config.DATE_RENDER_SELECTOR, config.DATE_RENDER_TYPE[0]);
   function loading_calendar(id, lan) {
     aim_div = '#' + id;
-    language = lan;
-    if (lan == 'cn') {
+    // language = lan;
+    if (lan === 'cn') {
       month_arry = month_cn;
       week_arry = week_cn;
     } else {
@@ -197,7 +212,8 @@
     $(aim_div).fullYearPicker({
       disabledDay: '',
       value: [ /* '2016-6-25', '2016-8-26'  */],
-      cellClick(_dateStr, isDisabled) {
+      cellClick() {
+        // _dateStr, isDisabled
         // $("#calendar-modal-1").modal();
         $('.month-container .selected').removeClass('selected');
       },
@@ -210,10 +226,10 @@
     const width = obj.width();
     const class_width = 'month-width-';
     n = parseInt(width / 400);
-    if (n == 5) n = 4;
+    if (n === 5) n = 4;
     if (n > 6) n = 6;
 
-    if (n != m) {
+    if (n !== m) {
       m_obj.removeClass(class_width + m);
       m_obj.addClass(class_width + n);
       m = n;
@@ -238,21 +254,21 @@
 
   function getTdClass(i, disabledDay, sameMonth, values, dateStr) {
 
-    let cls = i == 0 || i == 6 ? 'weekend' : '';
-    if (disabledDay && disabledDay.indexOf(i) != -1) { cls += (cls ? ' ' : '') + 'disabled'; }
+    let cls = i === 0 || i === 6 ? 'weekend' : '';
+    if (disabledDay && disabledDay.indexOf(i) !== -1) { cls += (cls ? ' ' : '') + 'disabled'; }
     if (!sameMonth) {
       cls += (cls ? ' ' : '') + 'empty';
     } else {
       cls += (cls ? ' ' : '') + 'able_day';
     }
-    if (sameMonth && values && cls.indexOf('disabled') == -1
-      && values.indexOf(',' + dateStr + ',') != -1) { cls += (cls ? ' ' : '') + 'selected'; }
-    return cls == '' ? '' : ' class="' + cls + '"';
+    if (sameMonth && values && cls.indexOf('disabled') === -1
+      && values.indexOf(',' + dateStr + ',') !== -1) { cls += (cls ? ' ' : '') + 'selected'; }
+    return cls === '' ? '' : ' class="' + cls + '"';
   }
   function renderMonth(year, month, clear, disabledDay, values) {
 
     const d = new Date(year, month - 1, 1);
-    let s = "<div class='month-container'>" + '<table cellpadding="0" cellspacing="1" border="0"'
+    let s = "<div class='month-container'> <table cellpadding='0' cellspacing='1' border='0'"
       + (clear ? ' class="right"' : '')
       + '>'
       + '<tr><th colspan="7" class="head"  index="' + month + '">' /* + year + '年'  */
@@ -264,11 +280,11 @@
     let hit = false;
     s += '<tr>';
     for (let i = 0; i < 7; i++) {
-      if (firstDay == i || hit) {
+      if (firstDay === i || hit) {
         s += '<td'
           + getTdClass(i, disabledDay, true, values, year
             + '-' + month + '-' + d.getDate())
-          + (d.getMonth() == dMonth ? 'data-date="' + year + '-' + month + '-' + d.getDate() + '"'
+          + (d.getMonth() === dMonth ? 'data-date="' + year + '-' + month + '-' + d.getDate() + '"'
             : '')
           + '>' + d.getDate() + '</td>';
         d.setDate(d.getDate() + 1);
@@ -284,13 +300,13 @@
       for (let j = 0; j < 7; j++) {
         s += '<td'
           + getTdClass(j, disabledDay,
-            d.getMonth() == dMonth, values, year
+            d.getMonth() === dMonth, values, year
             + '-' + month + '-'
           + d.getDate())
-          + (d.getMonth() == dMonth ? 'data-date="' + year + '-' + month + '-' + d.getDate() + '"'
+          + (d.getMonth() === dMonth ? 'data-date="' + year + '-' + month + '-' + d.getDate() + '"'
             : '')
           + '>'
-          + (d.getMonth() == dMonth ? d.getDate()
+          + (d.getMonth() === dMonth ? d.getDate()
             : '&nbsp;') + '</td>';
         d.setDate(d.getDate() + 1);
       }
@@ -303,8 +319,8 @@
   }
   function renderYear(year, el, disabledDay, value) {
     el.find('td').off();
-    let s = '',
-      values = ',' + value.join(',') + ',';
+    let s = '';
+    const values = ',' + value.join(',') + ',';
     for (let i = 1; i <= 12; i++) { s += renderMonth(year, i, false, disabledDay, values); }
     s += "<div class='date_clear'></div>";
     el
@@ -313,16 +329,16 @@
       .find('td')
       /* 单击日期单元格*/
       .on('click',
-        function () {
+        function() {
           if (!/disabled|empty/g.test(this.className)) { $(this).toggleClass('selected'); }
-          if (this.className.indexOf('empty') == -1
+          if (this.className.indexOf('empty') === -1
             && typeof el.data('config').cellClick === 'function') {
             el
               .data('config')
               .cellClick(
                 getDateStr(this),
                 this.className
-                  .indexOf('disabled') != -1);
+                  .indexOf('disabled') !== -1);
           }
         }
       );
@@ -343,7 +359,7 @@
   function formatBoundaryDate(data, type) {
     const isEarliest = type === 0;
     const dealIndex = isEarliest ? data.length - 1 : 0;
-    const currYear = Number($('.year .cen_year').text());
+    const currYear = getCenterYear();
     const currDate = data[dealIndex][config.CREATED_TIME_ATTR];
     const currDateObj = formatTime(currDate, true);
     // 校验年和边界年在一年的时候，才做校验
@@ -363,6 +379,9 @@
       case 1: {
         // 视频数据的最晚日期是大于当前年十二月，则代表数据是安全的
         isExceed = currDay - checkDay < 0;
+        break;
+      }
+      default: {
         break;
       }
     }
@@ -385,7 +404,7 @@
       return data;
     }
     const minutesArr = data.split(',');
-    return minutesArr && minutesArr.reduce(function (acc, cur) {
+    return minutesArr && minutesArr.reduce(function(acc, cur) {
       if (cur === '0') {
         return acc;
       }
@@ -404,8 +423,7 @@
     $(config.UNION_SELECTOR).text(data[config.UNION_SELECTOR]);
   }
 
-  window.checkBoundaryDate = function (data, page) {
-    // debugger;
+  const checkBoundaryDate = function(data, page) {
     !page && (page = { pn: 1, count: data.length, numPages: 1 });
     const DEFAULT_RETURN = true;
     // 先确认是否还有可检索的数据
@@ -415,19 +433,19 @@
     // 再确认最早的日期是否超过的边界
     let isExceed = formatBoundaryDate(data, 0);
     if (isExceed) {
-      window.searchFn(++page.pn);
+      searchFn(++page.pn);
       return !DEFAULT_RETURN;
     }
     // 再确认最晚的日期是否超过的边界
-    isExceed = formatBoundaryDate(data, 0);
+    isExceed = formatBoundaryDate(data, 1);
     if (isExceed) {
-      window.searchFn(--page.pn);
+      searchFn(--page.pn);
       return !DEFAULT_RETURN;
     }
     return DEFAULT_RETURN;
   };
 
-  window.renderListDate = function (data, page) {
+  window.renderListDate = function(data, page) {
     const countData = {
       [config.VIDEO_LIST_SELECTOR]: 0,
       [config.PUBLISH_SELECTOR]: 0,
@@ -436,10 +454,10 @@
       [config.UNION_SELECTOR]: 0,
     };
     renderCountByUser(countData);
-    const oldData = $.data(document.body, 'findData') || [];
+    const oldData = getFindData() || [];
     !data && (data = oldData);
-    !page && (page = $.data(document.body, 'page') || {});
-    page.numPages = Math.floor(page.count / page.ps);
+    !page && (page = $.data(_document.body, 'page') || {});
+    page.numPages = Math.round(page.count / page.ps);
     if (!data || !data.length) {
       return;
     }
@@ -448,10 +466,10 @@
       return;
     }
     if (oldData[0]) {
-      const oldItem = oldData[0]
-        .title !== oldData[0].title
-      const currItem = data[0]
+      const oldItem = oldData[0];
+      const currItem = data[0];
       if (oldItem.author === currItem.author && oldItem.title !== currItem.title) {
+        // if (oldItem.title !== currItem.title) {
         // 代表是同一个 UP 检索数据库后一页数据
         // 则将两次的数据都缓存起来
         data = data.concat(oldData);
@@ -459,10 +477,10 @@
     }
     const storeData = {};
 
-    const currYear = $('#cen_year').text();
+    const currYear = getCenterYear();
     const currUser = $('#keywords').val();
     $(getDateSelector()).off('click');
-    $.each(data, function (index, item) {
+    $.each(data, function(index, item) {
       const currDate = formatTime(item[config.CREATED_TIME_ATTR]);
       !storeData[currDate] && (storeData[currDate] = []);
       storeData[currDate].push(item);
@@ -473,17 +491,17 @@
         countData[config.COMMENT_SELECTOR] += item[config.COMMENT_ATTR];
         countData[config.BARRAGE_SELECTOR] += item[config.BARRAGE_ATTR];
         item[config.UNION_ATTR] && countData[config.UNION_SELECTOR]++;
+        $item.addClass(config.PUBLISH_CLASS).off('click').on('click', function() {
+          const currPublishData = storeData[currDate];
+          _mdui.alert(window.getPublishDateStr(currPublishData), currDate);
+        });
       }
-      $item.addClass(config.PUBLISH_CLASS).on('click', function (e) {
-        const currPublishData = storeData[currDate];
-        mdui.alert(window.getPublishDateStr(currPublishData), currDate);
-      });
       renderCountByUser(countData);
     });
     successTip(`${currUser} 在 ${currYear} 年一共发布了 ${countData[config.PUBLISH_SELECTOR]} 支视频~~`);
 
     // 缓存相关数据
-    $.data(document.body, {
+    $.data(_document.body, {
       findData: data,
       storeData,
       countData,
@@ -492,4 +510,4 @@
   };
 
   // #endregion 处理 B 站接口返回数据相关
-})();
+})(window);
