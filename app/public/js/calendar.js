@@ -148,14 +148,16 @@
   const searchFn = function(...args) {
     $(`td.${config.PUBLISH_CLASS}`).removeClass(config.PUBLISH_CLASS);
     const keywords = $('#keywords').val();
-    const centerYear = getCenterYear();
-    const currYear = new Date().getFullYear();
-    const oldData = getFindData();
+    // const centerYear = getCenterYear();
+    // const currYear = new Date().getFullYear();
+    // const oldData = getFindData();
     // 如果检索的年份是小于今年的，则代表数据所有数据都检索到了，不用请求接口
     // 在当年有旧的数据的情况下，只有是等于的情况下，当年数据才需要刷新
-    if (oldData && centerYear !== currYear) {
-      return;
-    }
+    // const oldItem = oldData[0];
+    // if (oldData && centerYear !== currYear) {
+    //   window.renderListDate();
+    //   return;
+    // }
     window.requestByName(keywords, ...args);
   };
 
@@ -438,7 +440,7 @@
     }
     // 再确认最晚的日期是否超过的边界
     isExceed = formatBoundaryDate(data, 1);
-    if (isExceed) {
+    if (page.pn > 1 && isExceed) {
       searchFn(--page.pn);
       return !DEFAULT_RETURN;
     }
@@ -469,7 +471,6 @@
       const oldItem = oldData[0];
       const currItem = data[0];
       if (oldItem.author === currItem.author && oldItem.title !== currItem.title) {
-        // if (oldItem.title !== currItem.title) {
         // 代表是同一个 UP 检索数据库后一页数据
         // 则将两次的数据都缓存起来
         data = data.concat(oldData);
