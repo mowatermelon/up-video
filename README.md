@@ -7,7 +7,8 @@
 
 单天如果有发布视频，日历上会显示 蓝色，点击蓝色日历块吗，可以弹出当天的发布的视频概要和跳转地址。
 
-![image](https://user-images.githubusercontent.com/18508817/108474402-49ad8180-72ca-11eb-89a7-8050514f227f.png)
+![image](https://user-images.githubusercontent.com/18508817/109245326-35faa180-781b-11eb-82d5-ac1cecdc0bf6.png)
+
 
 ![image](https://user-images.githubusercontent.com/18508817/108489388-79658500-72dc-11eb-8c6f-347ea05ca680.png)
 
