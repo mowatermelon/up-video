@@ -4,6 +4,8 @@
   const $ = _mdui.$;
   const log = console.log;
   // 盗月社食遇记
+  // STN工作室
+  // 前端早早聊
   const config = {
     DEFAULT_TD_SELECTOR: 'td[data-date]',
     NUMBER_REG: /[1-9]/,
@@ -37,6 +39,14 @@
             return;
           }
         },
+        error(xhr, textStatus) {
+          // xhr 为 XMLHttpRequest 对象
+          // textStatus 为包含错误代码的字符串
+          let response = xhr.response || {};
+          response && (response = JSON.parse(response));
+          errTip(response.msg || textStatus);
+          return;
+        },
       });
     } catch (error) {
       // 拿到 err 信息，统一进行处理
@@ -63,7 +73,7 @@
     } catch (error) {
       log(error);
       log('接口异常，显示示例数据');
-      _window.renderListDate(_window.getMockData().data.list.vlist);
+      // _window.renderListDate(_window.getMockData().data.list.vlist);
     }
   };
   _window.getPublishDateStr = function(videoList) {
@@ -72,12 +82,12 @@
       res += `<div class="mdui-card mdui-shadow-0">
 
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      <div class="mdui-card-header">
-        <div class="mdui-card-header-title">${item.title}</div>
+      <div class="mdui-card-header mdui-typo">
+        <strong>${item.title}</strong>
         <span class="mdui-text-color-grey-400">https://www.bilibili.com/video/${item.bvid}</span>
       </div>
       <div class="mdui-card-menu">
-        <a class="mdui-text-color-teal" target="_blank" href="https://www.bilibili.com/video/${item.bvid}"> <i class="mdui-icon material-icons mdui-typo-display-2">play_circle_outline</i> </a>
+        <a class="mdui-text-color-teal" target="_blank" href="https://www.bilibili.com/video/${item.bvid}"> <i class="mdui-icon material-icons mdui-typo-display-2 mdui-m-t-3">play_circle_outline</i> </a>
       </div>
       <!-- 卡片的内容 -->
       <div class="mdui-card-content mdui-p-a-0">
@@ -119,11 +129,11 @@
         }
         uid = res.data.mid;
       }
-      requestById(uid, page);
+      uid && requestById(uid, page);
     } catch (error) {
       log(error);
       log('接口异常，显示示例用户');
-      requestById(config.DEFAULT_UID);
+      // requestById(config.DEFAULT_UID);
     }
   };
   _window.getMockData = function() {

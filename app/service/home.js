@@ -39,7 +39,7 @@ class HomeService extends Service {
       jsonp: 'jsonp',
     };
     const res = await this.request(this.config.FIND_USER_URL, param);
-    if (!res || !res.data.result || !res.data.numResults) {
+    if (!res || !res.data || !res.data.result || !res.data.numResults) {
       return this.error('未查询到有效数据');
     }
     const data = res.data.result;
