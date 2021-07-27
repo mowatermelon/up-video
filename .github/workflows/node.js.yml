@@ -23,6 +23,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: docs
-        BUILD_SCRIPT: npm install && npm run build
+        FOLDER: .
+        BUILD_SCRIPT: npm install && npm run start
         CI: true
