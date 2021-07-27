@@ -10,6 +10,7 @@
     LAN_SWITCH_SELECTOR: '#languageSelect',
     LAN_VAL_SELECTOR: '#dateLanguage',
     VIDEO_LIST_SELECTOR: '#VideoLengthCount',
+    PLAY_SELECTOR: '#playCount',
     PUBLISH_SELECTOR: '#publishCount',
     COMMENT_SELECTOR: '#commentCount',
     BARRAGE_SELECTOR: '#barrageCount',
@@ -18,6 +19,7 @@
     CREATED_TIME_ATTR: 'created',
     COMMENT_ATTR: 'comment',
     BARRAGE_ATTR: 'video_review',
+    PLAY_ATTR: 'play',
     UNION_ATTR: 'is_union_video',
   };
   /**
@@ -418,11 +420,12 @@
     }, 0);
   }
   function renderCountByUser(data) {
-    $(config.VIDEO_LIST_SELECTOR).text(dealWithMinuteAdd(data[config.VIDEO_LIST_SELECTOR]));
-    $(config.PUBLISH_SELECTOR).text(data[config.PUBLISH_SELECTOR]);
-    $(config.COMMENT_SELECTOR).text(data[config.COMMENT_SELECTOR]);
-    $(config.BARRAGE_SELECTOR).text(data[config.BARRAGE_SELECTOR]);
-    $(config.UNION_SELECTOR).text(data[config.UNION_SELECTOR]);
+    $(config.VIDEO_LIST_SELECTOR).text(dealWithMinuteAdd(data[config.VIDEO_LIST_SELECTOR] || 0));
+    $(config.PLAY_SELECTOR).text(data[config.PLAY_SELECTOR] || 0);
+    $(config.PUBLISH_SELECTOR).text(data[config.PUBLISH_SELECTOR] || 0);
+    $(config.COMMENT_SELECTOR).text(data[config.COMMENT_SELECTOR] || 0);
+    $(config.BARRAGE_SELECTOR).text(data[config.BARRAGE_SELECTOR] || 0);
+    $(config.UNION_SELECTOR).text(data[config.UNION_SELECTOR] || 0);
   }
 
   const checkBoundaryDate = function(data, page) {
@@ -454,6 +457,7 @@
       [config.COMMENT_SELECTOR]: 0,
       [config.BARRAGE_SELECTOR]: 0,
       [config.UNION_SELECTOR]: 0,
+      [config.PLAY_SELECTOR]: 0,
     };
     renderCountByUser(countData);
     const oldData = getFindData() || [];
@@ -491,6 +495,7 @@
         countData[config.PUBLISH_SELECTOR]++;
         countData[config.COMMENT_SELECTOR] += item[config.COMMENT_ATTR];
         countData[config.BARRAGE_SELECTOR] += item[config.BARRAGE_ATTR];
+        countData[config.PLAY_SELECTOR] += item[config.PLAY_ATTR];
         item[config.UNION_ATTR] && countData[config.UNION_SELECTOR]++;
         $item.addClass(config.PUBLISH_CLASS).off('click').on('click', function() {
           const currPublishData = storeData[currDate];

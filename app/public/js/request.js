@@ -98,6 +98,8 @@
         <span class="mdui-text-color-grey-500"=>${item.comment}</span>
         <span class="mdui-m-l-1">| <i class="mdui-icon material-icons">leak_add</i></span>
         <span class="mdui-text-color-grey-500">${item.video_review}</span>
+        <span class="mdui-m-l-1">| <i class="mdui-icon material-icons">&#xe039;</i></span>
+        <span class="mdui-text-color-grey-500">${item.play}</span>
       </div>
     </div>`;
       return item;
